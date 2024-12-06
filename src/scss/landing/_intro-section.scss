@@ -1,0 +1,130 @@
+@use '../resets';
+
+.intro-section {
+	position: relative;
+	height: 600px;
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 6em;
+
+	.play-btn {
+		position: absolute;
+		z-index: 2;
+		top: 20%;
+		left: 50%;
+		transform: translateX(-50%);
+		border: 1px solid resets.$accent-color;
+		cursor: pointer;
+		height: 80px;
+		width: 80px;
+		border-radius: 100%;
+		background: rgba(242, 79, 29, 0.466);
+
+		i {
+			color: #fff;
+			display: inline-block;
+			transition: all 0.8s ease;
+		}
+	}
+
+	.play-btn:hover > i {
+		animation: scalePlayBtn 1s infinite;
+	}
+
+	.intro-img-section {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		z-index: 0;
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background: rgba(0, 0, 0, 0.685);
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.container {
+		position: relative;
+		z-index: 1;
+		width: 90%;
+		margin: 0 auto;
+		padding-bottom: 5em;
+
+		.heading {
+			color: #fff;
+			margin-bottom: 0.6em;
+			font-size: 2rem;
+		}
+
+		.wrap {
+			color: #fff;
+
+			.subtext {
+				margin-bottom: 1em;
+				font-size: 16px;
+				line-height: 1.5;
+			}
+
+			.btn-wrap {
+				.btn {
+					padding: 0;
+					background: transparent;
+					border: none;
+					color: resets.$accent-color;
+				}
+			}
+		}
+	}
+
+	@media screen and (min-width: 43em) {
+		.play-btn {
+			top: 30%;
+		}
+	}
+
+	@media screen and (min-width: 62em) {
+		.play-btn {
+			height: 100px;
+			width: 100px;
+
+			i {
+				font-size: 1rem;
+			}
+		}
+
+		.container {
+			display: flex;
+
+			.heading {
+				width: 100%;
+			}
+
+			.wrap {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@keyframes scalePlayBtn {
+	0%,
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	50% {
+		transform: scale(1.5);
+		opacity: 0.8;
+	}
+}

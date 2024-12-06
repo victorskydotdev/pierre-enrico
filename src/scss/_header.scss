@@ -1,0 +1,130 @@
+@use './resets';
+
+.header-nav {
+	// background: teal;
+	position: fixed;
+	width: 100%;
+	// top: 0;
+	z-index: 3;
+	backdrop-filter: blur(20px);
+	overflow-x: hidden;
+	// -webkit-backdrop-filter: blur(20px);
+	// background: rgba(0, 0, 0, 0.568);
+	transition: all 0.8s ease-in-out;
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 15vh;
+		transition: all 0.8s ease-in-out;
+
+		.brand-wrap {
+			.logo-text {
+				color: #fff;
+			}
+		}
+
+		.link-wrap {
+			position: absolute;
+			left: 0;
+			background: teal;
+			width: 100%;
+			top: 0;
+			height: 100vh;
+			display: none;
+
+			.link {
+				a {
+					color: #fff;
+					display: inline-block;
+					position: relative;
+
+					&::after {
+						content: '';
+						position: absolute;
+						height: 2px;
+						width: 100%;
+						background: #fda410;
+						top: 100%;
+						left: 0;
+						transition: transform 0.5s ease-in-out;
+						transform: scale(0, 1);
+						transform-origin: left;
+					}
+
+					&:hover::after {
+						transform: scale(1, 1);
+					}
+				}
+			}
+		}
+
+		@media screen and (min-width: 43em) {
+			.link-wrap {
+				left: unset;
+				right: 10%;
+				width: 50%;
+				top: 100%;
+				height: 40vh;
+				border-radius: 20px;
+			}
+		}
+
+		@media screen and (min-width: 62em) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.link-wrap {
+				display: flex;
+				gap: 2.5em;
+				position: unset;
+				width: unset;
+				background: transparent;
+				height: unset;
+			}
+		}
+	}
+}
+
+.background {
+	transform: translateY(-100%);
+	// animation: modifyNavbar 1s linear;
+}
+
+.bg2 {
+	transform: translateY(0);
+	background: resets.$accent-color;
+	// background: resets.$dark;
+}
+
+.show-bg {
+	transform: translateY(0);
+	backdrop-filter: blur(0px);
+
+	.container {
+		background: resets.$dark;
+	}
+
+	@media screen and (min-width: 62em) {
+		// padding: 1em 0;
+		.container {
+			// padding: 0 4em;
+			// border-radius: 60px;
+			height: 12vh;
+		}
+	}
+}
+
+// @keyframes modifyNavbar {
+// 	from {
+// 		transform: translateY(-100%);
+// 	}
+
+// 	to {
+// 		transform: translateY(0);
+// 	}
+// }

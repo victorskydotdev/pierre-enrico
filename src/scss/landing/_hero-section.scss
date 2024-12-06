@@ -1,0 +1,141 @@
+@use '../resets';
+
+.hero-section {
+	margin-bottom: 7em;
+	background: rgba(0, 0, 0, 0.404);
+
+	padding: 5em 0;
+	padding-top: 10em;
+
+	.positioned-imgs {
+		width: 100%;
+
+		img {
+			position: absolute;
+			z-index: -1;
+			width: 100%;
+			height: 600px;
+
+			&:first-child {
+				top: 0;
+				right: 0;
+			}
+
+			&:last-child {
+				top: 0;
+			}
+		}
+	}
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+		display: grid;
+		gap: 3em;
+
+		.text-wrap {
+			.masthead {
+				color: #fff;
+				line-height: 1.3;
+				margin-bottom: 0.3em;
+
+				.text-animation {
+					// transform: translateY(50%);
+					display: inline-block;
+					opacity: 0;
+				}
+			}
+
+			.wrap {
+				.subtext {
+					line-height: 1.5;
+					margin-bottom: 1.3em;
+					color: #fff;
+					opacity: 0;
+				}
+
+				.btn-wrap {
+					opacity: 0;
+
+					.btn {
+						text-transform: capitalize;
+						background: resets.$accent-color;
+						padding: 1em 2em;
+						color: #fff;
+						border: none;
+						border-radius: 40px;
+						cursor: pointer;
+						font-size: 1rem;
+					}
+				}
+			}
+		}
+
+		.hero-img-wrap {
+			opacity: 0;
+			height: 400px;
+			overflow: hidden;
+			border-radius: 20px;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		@media screen and (min-width: 43em) {
+			.text-wrap {
+				max-width: 500px;
+			}
+		}
+
+		@media screen and (min-width: 62em) {
+			position: relative;
+
+			.text-wrap {
+				max-width: 700px;
+
+				.masthead {
+					font-size: 3rem;
+				}
+
+				.wrap {
+					position: absolute;
+					max-width: 40%;
+					right: 5%;
+					top: 60%;
+
+					.subtext {
+						line-height: 1.7;
+					}
+				}
+			}
+
+			.hero-img-wrap {
+				width: 600px;
+				margin-bottom: -4em;
+			}
+		}
+	}
+
+	@media screen and (min-width: 62em) {
+		padding-bottom: 0;
+		margin-bottom: 13em;
+	}
+}
+
+@keyframes slideInFromBelow {
+	from {
+		opacity: 0;
+		transform: translateY(100%); /* Starts completely out of view */
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0); /* Ends at the original position */
+	}
+}
+
+.animate-slide-in {
+	animation: slideInFromBelow 0.5s ease-in-out forwards; /* Ensure forwards keeps final state */
+}

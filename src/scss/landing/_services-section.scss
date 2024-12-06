@@ -1,0 +1,118 @@
+@use '../resets';
+
+.services-section {
+	margin-bottom: 10em;
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+		position: relative;
+
+		// create a horizontal line below the services' section
+		&::after {
+			content: '';
+			position: absolute;
+			height: 1.5px;
+			width: 100%;
+			background: #cccbc8;
+			top: 110%;
+
+			@media screen and (min-width: 62em) {
+				top: 115%;
+			}
+		}
+
+		.text-wrap {
+			text-align: center;
+
+			.heading {
+				margin-bottom: 1.5em;
+			}
+		}
+
+		.wrap {
+			display: grid;
+			gap: 2em;
+
+			.service-wrap {
+				padding: 1.5em;
+				background: orange;
+				border-radius: 20px;
+				height: 350px;
+				position: relative;
+				overflow: hidden;
+
+				// &:first-child {
+				// 	background: red;
+				// }
+
+				&::after {
+					content: '';
+					position: absolute;
+					inset: 0;
+					background: rgba(0, 0, 0, 0.514);
+				}
+
+				.wrapper {
+					position: relative;
+					z-index: 1;
+					padding: 1.5em 0 2em 0;
+
+					.heading {
+						color: #fff;
+						margin-bottom: 1em;
+						font-size: 1.7rem;
+					}
+
+					.subtext {
+						color: #fff;
+						margin-bottom: 1.5em;
+					}
+
+					.btn-wrap {
+						.btn {
+							background: transparent;
+							padding: 0;
+							color: #fff;
+							border: none;
+							font-size: 1rem;
+						}
+					}
+				}
+
+				.rental-img-wrap {
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+
+					img {
+						height: 100%;
+						width: 100%;
+						object-fit: cover;
+					}
+				}
+
+				.re-img-wrap {
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+
+					img {
+						height: 100%;
+						width: 100%;
+						object-fit: cover;
+					}
+				}
+			}
+
+			@media screen and (min-width: 62em) {
+				display: flex;
+				width: 75%;
+				margin: 0 auto;
+				gap: 1em;
+			}
+		}
+	}
+}
