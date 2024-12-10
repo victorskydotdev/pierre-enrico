@@ -11,3 +11,7 @@
 	transition: transform 0.5s ease;
 	transform: scale(0, 0);
 }
+
+.show-video-frame {
+	transform: scale(1, 1);
+}

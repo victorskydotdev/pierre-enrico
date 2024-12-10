@@ -5,9 +5,16 @@ import img3 from '../assets/rental-services.jpg';
 import img4 from '../assets/real-estate-services.jpg';
 import layerBlur from '../assets/layer-blur-1.png';
 import layerBlur2 from '../assets/layer-blur-2.png';
+import shield from '../assets/shield.png';
+
+import bg1 from '../assets/hero-bg/bg1.png';
+import bg2 from '../assets/hero-bg/bg2.jpg';
+import bg3 from '../assets/hero-bg/bg3.jpg';
+import bg4 from '../assets/hero-bg/bg4.jpg';
 
 export { logo }; // export the logo to be able to use it in the nav template
 
+const credImgWrap = document.querySelector('.cred-img');
 const heroImgWrap = document.querySelector('.hero-img-wrap');
 const posHeroImgWrap = document.querySelector('.positioned-imgs');
 const introSectionWrap = document.querySelector('.intro-img-section');
@@ -16,6 +23,9 @@ const rentalImgWrap = document.querySelector('.rental-img-wrap');
 const reImgWrap = document.querySelector('.re-img-wrap');
 
 export function loadLandingPageImgs() {
+	const credImgTemp = `
+		<img src="${shield}" />
+	`;
 	const posHeroTemplate = `
 		<img src="${layerBlur}" />
 		<img src="${layerBlur2}" />
@@ -34,7 +44,8 @@ export function loadLandingPageImgs() {
 		<img src="${img4}" />
 	`;
 
-	if (posHeroImgWrap && introSectionWrap && heroImgWrap) {
+	if (credImgWrap && posHeroImgWrap && introSectionWrap && heroImgWrap) {
+		credImgWrap.innerHTML = credImgTemp;
 		posHeroImgWrap.innerHTML += posHeroTemplate;
 		heroImgWrap.innerHTML += heroImgTemplate;
 		introSectionWrap.innerHTML += introImgTemplate;

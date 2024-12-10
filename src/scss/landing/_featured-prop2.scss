@@ -12,14 +12,29 @@
 			justify-content: space-between;
 			align-items: flex-end;
 
+			// background: red;
+
 			.heading {
-				max-width: 600px;
+				max-width: 500px;
 				line-height: 1.3;
+				text-transform: capitalize;
+				margin-bottom: 0.6em;
+				font-size: 2rem;
 			}
 
 			.btn-wrap {
 				.btn {
 					color: resets.$accent-color;
+
+					display: flex;
+					align-items: center;
+					gap: 1.4em;
+				}
+			}
+
+			@media screen and (min-width: 62em) {
+				.heading {
+					margin-bottom: 0;
 				}
 			}
 		}

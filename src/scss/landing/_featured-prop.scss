@@ -11,11 +11,16 @@
 			text-align: center;
 
 			.heading {
-				margin-bottom: 0.5em;
+				// margin-bottom: 0.5em;
+				text-transform: capitalize;
+				margin-bottom: 0.6em;
+				font-size: 2rem;
 			}
 
 			.subtext {
-				color: #7a7a7a;
+				max-width: 500px;
+				margin: 0 auto;
+				color: resets.$grey;
 			}
 		}
 

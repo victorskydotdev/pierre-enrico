@@ -104,11 +104,11 @@
 				.form-wrap {
 					.name-wrap {
 						display: flex;
-						justify-content: space-between;
-						gap: 2em;
+						// justify-content: space-between;
+						gap: 0.5em;
 
 						.wrap {
-							width: 100%;
+							width: 80%;
 						}
 					}
 				}
