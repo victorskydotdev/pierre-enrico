@@ -6,7 +6,7 @@ const template = `
   <div class="container">
     <div class="top-wrapper">
       <div class="wrap">
-        <h4><i class="fa-solid fa-location-dot"></i> St. Something Street, Paris</h4>
+        <h4><i class="fa-solid fa-location-dot"></i> Monte Carlo Sun, Bd d'italie 74, 98000, Monaco</h4>
       </div>
 
       <ul class="wrap poppins-medium">
@@ -23,11 +23,11 @@ const template = `
         </li>
       </ul>
 
-      <div class="social-media-wrap">
-        <a href="">
+      <div class="wrap social-media-wrap">
+        <a href="https://www.instagram.com/pierreenricoimmobilier/" target="_blank">
           <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="">
+        <!-- <a href="">
           <i class="fa-brands fa-facebook"></i>
         </a>
         <a href="">
@@ -35,7 +35,7 @@ const template = `
         </a>
         <a href="">
           <i class="fa-brands fa-linkedin"></i>
-        </a>
+        </a> -->
       </div>
     </div>
 
@@ -43,7 +43,7 @@ const template = `
       <img src="${img2}" />
       <h2 class="poppins-bold">Pierre <br> <span>Enrico</span></h2>
 
-      <p class="copyright poppins-medium">Copyright &copy; 2024. Pierre Enrico LLC. All rights reserved</p>
+      <p class="copyright poppins-medium">Copyright &copy; 2025. Pierre Enrico. All rights reserved</p>
     </div>
   </div>
 `;

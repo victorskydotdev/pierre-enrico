@@ -99,16 +99,30 @@
 				.wrap {
 					&:nth-child(1) {
 						color: #7a7a7a;
+						// background: red;
+						// max-width: 350px;
+						width: 100%;
 					}
 
 					&:nth-child(2) {
 						display: flex;
+						width: 100%;
+						// background: teal;
+						justify-content: center;
 
 						li {
 							a {
 								color: #7a7a7a;
 							}
 						}
+					}
+
+					&:nth-child(3) {
+						display: flex;
+						gap: 1.7em;
+						width: 100%;
+						// background: green;
+						justify-content: flex-end;
 					}
 				}
 
