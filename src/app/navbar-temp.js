@@ -1,30 +1,30 @@
 import { navbarWrap } from './variables';
+import brandLogo from '../assets/pierre-enrico-logo.png';
 
 const navbar = `
-	<nav class="container">
+	<nav class="container" id="nav-container">
 		<div class="brand-wrap">
-			<h3 class="logo-text">
-				Pierre 
-				Enrico
-			</h3>
+			<a href="/">
+				<img src="${brandLogo}" alt="logo" class="brand-logo" />
+			</a>
 		</div>
 
 		<ul class="link-wrap poppins-regular">
 			<li class="link">
 				<a href="/" >Home</a>
 			</li>
-			<li class="link">
+			<!-- <li class="link">
 				<a href="#">About</a>
-			</li>
+			</li> -->
 			<li class="link">
 				<a href="/listings.html">Listings</a>
 			</li>
 			<li class="link">
 				<a href="/#services">Our Services</a>
 			</li>
-			<li class="link">
+			<!-- <li class="link">
 				<a href="#">Contact</a>
-			</li>
+			</li> -->
 		</ul>
 	</nav>
 `;
@@ -33,22 +33,19 @@ export const showNavBar = () => {
 	if (navbarWrap) {
 		navbarWrap.innerHTML = navbar;
 
-		const staticPosition = 200;
+		const navContainer = document.getElementById('nav-container');
+		const brandLogoElem = document.querySelector('.brand-logo');
 
-		window.addEventListener('scroll', () => {
-			if (window.scrollY >= staticPosition) {
-				navbarWrap.classList.add('background');
+		const modifyLogoSize = () => {
+			window.addEventListener('scroll', () => {
+				if (window.scrollY >= 200) {
+					// navContainer.classList.add('resize-nav');
+					// console.log(navContainer);
+					brandLogoElem.classList.add('change-logo-size');
+				} else brandLogoElem.classList.remove('change-logo-size');
+			});
+		};
 
-				if (window.scrollY >= 600) {
-					navbarWrap.classList.add('bg2');
-				}
-			} else {
-				navbarWrap.classList.remove('background');
-
-				if (window.scrollY <= staticPosition) {
-					navbarWrap.classList.remove('bg2');
-				}
-			}
-		});
+		modifyLogoSize();
 	}
 };

@@ -1,0 +1,130 @@
+@use '../resets';
+
+.property-listing-section {
+	min-height: 600px;
+	margin-bottom: 7em;
+
+	.heading-wrap {
+		margin-bottom: 3em;
+
+		.wrap {
+			@include resets.width-mixin();
+
+			.heading {
+				line-height: 1.3;
+				margin-bottom: 0.3em;
+				font-size: clamp(3vw, 2.5rem, 8vw);
+				@include resets.poppins-bold();
+			}
+
+			.btn-filter-wrap {
+				// background: resets.$accent-color;
+				display: flex;
+				gap: 0.5em;
+				border: solid 2px resets.$accent-color;
+				padding: 0.5em 0.57em;
+				border-radius: 40px;
+
+				.cat-filter-btn {
+					border: none;
+					padding: 1em 2em;
+
+					@include resets.poppins-medium();
+					cursor: pointer;
+					border-radius: 30px;
+					color: resets.$dark;
+				}
+			}
+
+			@media screen and (min-width: 43em) {
+			}
+
+			@media screen and (min-width: 62em) {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+		}
+	}
+
+	.property-wrap {
+		display: grid;
+		gap: 1em;
+		@include resets.width-mixin();
+
+		.wrap {
+			display: grid;
+			gap: 1em;
+			width: 100%;
+
+			.card {
+				width: 100%;
+				// background: teal;
+
+				.img-wrap {
+					width: 100%;
+					border-radius: 20px;
+					margin-bottom: 0.5em;
+
+					.property-img {
+						height: 100%;
+						width: 100%;
+						object-fit: cover;
+					}
+				}
+
+				.text-wrap {
+					.heading {
+						// font-size: 1.5rem;
+						margin-bottom: 0.5em;
+						@include resets.poppins-medium();
+					}
+
+					.desc {
+						margin-bottom: 0.5em;
+						@include resets.poppins-regular();
+						line-height: 1;
+						font-size: 0.9rem;
+					}
+
+					.price {
+						margin-bottom: 0.5em;
+					}
+
+					.see-details-btn {
+						text-transform: capitalize;
+						background: #f24d1d;
+						padding: 1em 1.5em;
+						color: #fff;
+						border: none;
+						border-radius: 40px;
+						cursor: pointer;
+						// font-size: 1rem;
+						display: inline-block;
+						@include resets.poppins-medium();
+					}
+				}
+			}
+
+			@media screen and (min-width: 62em) {
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
+
+		@media screen and (min-width: 43em) {
+		}
+	}
+}
+
+.active-btn {
+	background: resets.$accent-color;
+	color: resets.$light !important;
+}
+
+.background-color {
+	background: resets.$light;
+	padding: 1.4em 0;
+	position: sticky;
+	top: 0%;
+	z-index: 5;
+}

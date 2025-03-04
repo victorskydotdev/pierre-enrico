@@ -4,6 +4,8 @@
 	margin-bottom: 7em;
 
 	.container {
+		// background: teal;
+
 		.text-wrap {
 			width: fit-content;
 			margin: 0 auto;
@@ -11,7 +13,6 @@
 			text-align: center;
 
 			.heading {
-				// margin-bottom: 0.5em;
 				text-transform: capitalize;
 				margin-bottom: 0.6em;
 				font-size: 2rem;
@@ -28,48 +29,75 @@
 			display: grid;
 			gap: 2em;
 
-			.card {
-				min-height: 300px;
-				width: 100%;
+			.featured-prop-card {
+				.property-card {
+					height: 300px;
+					position: relative;
 
-				position: relative;
+					.img-wrap {
+						// background: orange;
+						height: 270px;
+						margin-bottom: 1em;
+						border-radius: 20px;
+						position: relative;
 
-				.img-wrap {
-					background: orange;
-					height: 270px;
-					width: 100%;
-					margin-bottom: 1em;
-					border-radius: 20px;
-				}
+						img {
+							width: 100%;
+							height: 100%;
+							object-fit: cover;
+							position: absolute;
+							opacity: 0;
+							transition: opacity 0.5s ease-in-out;
 
-				.data-btns {
-					display: flex;
-					justify-content: center;
-					gap: 0.5em;
-					position: absolute;
-					bottom: 12%;
-					left: 50%;
-					transform: translateX(-50%);
+							&.active {
+								opacity: 1;
+							}
+						}
 
-					button {
-						height: 10px;
-						width: 10px;
-						border: none;
-						border-radius: 100%;
-						cursor: pointer;
+						// img
 					}
-				}
 
-				.details {
-					display: flex;
-					justify-content: space-between;
-					padding: 0 0.5em;
+					.data-btns {
+						display: flex;
+						justify-content: center;
+						gap: 0.5em;
+						position: absolute;
+						bottom: 12%;
+						left: 50%;
+						transform: translateX(-50%);
+
+						.data-btn1 {
+							width: 10px;
+							height: 10px;
+							border-radius: 50%;
+							background-color: gray;
+							border: none;
+							outline: none;
+							cursor: pointer;
+						}
+
+						.data-btn1.active {
+							background-color: resets.$accent-color;
+						}
+					}
+
+					.details {
+						display: flex;
+						justify-content: space-between;
+						padding: 0 0.5em;
+					}
 				}
 			}
 
 			@media screen and (min-width: 62em) {
 				display: flex;
 				gap: 1em;
+				width: 95%;
+				margin: 0 auto;
+
+				.featured-prop-card {
+					width: 100%;
+				}
 			}
 		}
 	}

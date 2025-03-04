@@ -37,6 +37,6 @@ const observer = new IntersectionObserver((entries) => {
 
 if (parentSection) {
 	parentSection.forEach((element) => {
-		observer.observe(element);
+		observer.observe(element, options);
 	});
 } else console.log('Parent Element not in the DOM');

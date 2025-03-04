@@ -12,7 +12,7 @@ module.exports = {
 
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: './src/index.html',
+			template: './src/html/index.html',
 			chunks: ['main'],
 			filename: 'index.html',
 			// 	favicon: './src/assets/brand.png', // Path to your favicon
@@ -22,6 +22,13 @@ module.exports = {
 			template: './src/html/listings.html',
 			chunks: ['main'],
 			filename: 'listings.html',
+			// 	favicon: './src/assets/brand.png', // Path to your favicon
+		}),
+
+		new HtmlWebpackPlugin({
+			template: './src/html/prop-details.html',
+			chunks: ['main'],
+			filename: 'prop-details.html',
 			// 	favicon: './src/assets/brand.png', // Path to your favicon
 		}),
 
@@ -53,17 +60,26 @@ module.exports = {
 			},
 
 			// file loader for images
+			// {
+			// 	test: /\.(png|jpe?g|gif|svg)$/i,
+			// 	use: [
+			// 		{
+			// 			loader: 'file-loader',
+
+			// 			options: {
+			// 				name: 'assets/[path][name].[ext]',
+			// 			},
+			// 		},
+			// 	],
+			// },
+
 			{
 				test: /\.(png|jpe?g|gif|svg)$/i,
-				use: [
-					{
-						loader: 'file-loader',
+				type: 'asset/resource',
 
-						options: {
-							name: 'assets/[path][name].[ext]',
-						},
-					},
-				],
+				generator: {
+					filename: 'assets/[name].[hash][ext]',
+				},
 			},
 
 			{

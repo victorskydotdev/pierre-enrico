@@ -30,6 +30,7 @@
 				font-size: 36px;
 				text-transform: capitalize;
 				margin-bottom: 0.5em;
+				color: resets.$dark;
 			}
 
 			.subtext {
@@ -45,44 +46,58 @@
 
 			.service-wrap {
 				padding: 1.5em;
-				background: orange;
-				border-radius: 20px;
+				// background: #ffffff;
+				border-radius: 10px;
 				height: 350px;
 				position: relative;
-				overflow: hidden;
-
-				// &:first-child {
-				// 	background: red;
-				// }
-
-				&::after {
-					content: '';
-					position: absolute;
-					inset: 0;
-					background: rgba(0, 0, 0, 0.514);
-				}
 
 				.wrapper {
 					position: relative;
 					z-index: 1;
-					padding: 1.5em 0 2em 0;
 
 					.heading {
-						color: #fff;
-						margin-bottom: 1em;
-						font-size: 1.7rem;
+						color: resets.$accent-color;
+						margin-bottom: 0.7em;
+						font-size: 1.5rem;
+						position: relative;
+						margin-left: 1em;
+						// background: teal;
+
+						&::before {
+							content: '';
+							position: absolute;
+							height: 20px;
+							width: 20px;
+							background: resets.$accent-color;
+							left: -10%;
+							border-radius: 3px;
+							z-index: 1;
+						}
+
+						&::after {
+							content: '';
+							position: absolute;
+							height: 20px;
+							width: 20px;
+							background: resets.$grey;
+							left: -8%;
+							top: 10%;
+							border-radius: 3px;
+						}
 					}
 
 					.subtext {
-						color: #fff;
+						color: resets.$grey;
 						margin-bottom: 1.5em;
 					}
 
 					.btn-wrap {
+						margin-bottom: 1em;
+
 						.btn {
 							background: transparent;
 							padding: 0;
-							color: #fff;
+							color: resets.$accent-color;
 							border: none;
 							font-size: 1rem;
 						}
@@ -90,10 +105,12 @@
 				}
 
 				.rental-img-wrap {
-					position: absolute;
-					top: 0;
-					left: 0;
-					height: 100%;
+					height: 100px;
+					width: 100%;
+					background: resets.$accent-color;
+					border-radius: 15px;
+					overflow: hidden;
+					margin-bottom: 1.5em;
 
 					img {
 						height: 100%;
@@ -103,10 +120,27 @@
 				}
 
 				.re-img-wrap {
-					position: absolute;
-					top: 0;
-					left: 0;
-					height: 100%;
+					height: 100px;
+					width: 100%;
+					background: resets.$accent-color;
+					border-radius: 15px;
+					overflow: hidden;
+					margin-bottom: 1.5em;
+
+					img {
+						height: 100%;
+						width: 100%;
+						object-fit: cover;
+					}
+				}
+
+				.shortlet-img-wrap {
+					height: 100px;
+					width: 100%;
+					background: resets.$accent-color;
+					border-radius: 15px;
+					overflow: hidden;
+					margin-bottom: 1.5em;
 
 					img {
 						height: 100%;
@@ -118,7 +152,7 @@
 
 			@media screen and (min-width: 62em) {
 				display: flex;
-				width: 75%;
+				width: 90%;
 				margin: 0 auto;
 				gap: 1em;
 			}

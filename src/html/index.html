@@ -22,7 +22,7 @@
 					<p class="text poppins-medium">Fast-growing real estate company</p>
 				</div>
 				<div class="text-wrap">
-					<h1 class="masthead poppins-bold">
+					<h1 class="masthead">
 						<span class="text-animation">We</span>
 						<span class="text-animation">help</span>
 						<span class="text-animation">you</span>
@@ -41,7 +41,7 @@
 					</h1>
 
 					<div class="wrap">
-						<p class="subtext poppins-regular text-animation">
+						<p class="subtext text-animation">
 							Lorem ipsum dolor sit amet consectetur. Nullam nunc nibh vulputate
 							porttitor quis tellus. Ullamcorper malesuada proin nam ut
 							porttitor quam.
@@ -58,10 +58,16 @@
 		</main>
 
 		<div class="intro-section intersecting-section">
-			<button class="play-btn" id="intro-play-btn">
+			<!-- <button class="play-btn" id="intro-play-btn">
 				<i class="fa-solid fa-play"></i>
-			</button>
-			<div class="intro-img-section"></div>
+			</button> -->
+			<div class="intro-img-section">
+				<video class="video-tag" height="360" autoplay loop muted>
+					<source src="../assets/pierre-enrico-video.mp4" type="video/mp4" />
+
+					<!-- Your browser does not support the video tag. -->
+				</video>
+			</div>
 
 			<div class="container">
 				<h3 class="heading poppins-bold">About Pierre Enrico</h3>
@@ -94,8 +100,10 @@
 
 				<div class="wrap">
 					<div class="service-wrap">
+						<div class="rental-img-wrap"></div>
+
 						<div class="wrapper">
-							<h3 class="heading poppins-bold">Rental services</h3>
+							<h3 class="heading poppins-bold">Rental</h3>
 
 							<p class="subtext poppins-regular">
 								Lorem ipsum dolor sit amet consectetur. Arcu eleifend tortor
@@ -104,16 +112,19 @@
 							</p>
 
 							<div class="btn-wrap">
-								<button class="btn poppins-medium">Contact us Today</button>
+								<button class="btn poppins-medium">
+									<span>Contact us today</span>
+									<i class="fa-solid fa-angle-right"></i>
+								</button>
 							</div>
 						</div>
-
-						<div class="rental-img-wrap"></div>
 					</div>
 
 					<div class="service-wrap">
+						<div class="re-img-wrap"></div>
+
 						<div class="wrapper">
-							<h3 class="heading poppins-bold">Real Estate services</h3>
+							<h3 class="heading poppins-bold">Real Estate</h3>
 
 							<p class="subtext poppins-regular">
 								Lorem ipsum dolor sit amet consectetur. Arcu eleifend tortor
@@ -122,11 +133,33 @@
 							</p>
 
 							<div class="btn-wrap">
-								<button class="btn poppins-medium">Contact us Today</button>
+								<button class="btn poppins-medium">
+									<span>Contact us today</span>
+									<i class="fa-solid fa-angle-right"></i>
+								</button>
 							</div>
 						</div>
+					</div>
 
-						<div class="re-img-wrap"></div>
+					<div class="service-wrap">
+						<div class="shortlet-img-wrap"></div>
+
+						<div class="wrapper">
+							<h3 class="heading poppins-bold">Short-let</h3>
+
+							<p class="subtext poppins-regular">
+								Lorem ipsum dolor sit amet consectetur. Arcu eleifend tortor
+								duis ac. Tincidunt aliquet scelerisque quis quis suspendisse
+								tempor nunc pellentesque mi.
+							</p>
+
+							<div class="btn-wrap">
+								<button class="btn poppins-medium">
+									<span>Contact us today</span>
+									<i class="fa-solid fa-angle-right"></i>
+								</button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -143,53 +176,11 @@
 				</div>
 
 				<div class="listing-cards-wrap">
-					<div class="card">
-						<div class="img-wrap prop1"></div>
+					<div class="featured-prop-card"></div>
 
-						<div class="data-btns">
-							<button class="data-btn1" data-id="data-btn1"></button>
-							<button class="data-btn1" data-id="data-btn2"></button>
-							<button class="data-btn1" data-id="data-btn3"></button>
-							<button class="data-btn1" data-id="data-btn4"></button>
-						</div>
+					<div class="featured-prop-card"></div>
 
-						<div class="details">
-							<h5 class="propery-name">Name of property</h5>
-							<p class="location">somewhere in France</p>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="img-wrap"></div>
-
-						<div class="data-btns">
-							<button class="data-btn1" data-id="data-btn1"></button>
-							<button class="data-btn1" data-id="data-btn2"></button>
-							<button class="data-btn1" data-id="data-btn3"></button>
-							<button class="data-btn1" data-id="data-btn4"></button>
-						</div>
-
-						<div class="details">
-							<h5 class="propery-name">Name of property</h5>
-							<p class="location">somewhere in France</p>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="img-wrap"></div>
-
-						<div class="data-btns">
-							<button class="data-btn1" data-id="data-btn1"></button>
-							<button class="data-btn1" data-id="data-btn2"></button>
-							<button class="data-btn1" data-id="data-btn3"></button>
-							<button class="data-btn1" data-id="data-btn4"></button>
-						</div>
-
-						<div class="details">
-							<h5 class="propery-name">Name of property</h5>
-							<p class="location">somewhere in France</p>
-						</div>
-					</div>
+					<div class="featured-prop-card"></div>
 				</div>
 			</div>
 		</section>
