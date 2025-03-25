@@ -1,6 +1,15 @@
 import { navbarWrap } from './variables';
 import brandLogo from '../assets/pierre-enrico-logo.png';
 
+// isolated header class for navbar style change
+const propDetailsNav = document.querySelector('.prop-details-nav');
+console.log(propDetailsNav);
+
+if (propDetailsNav) {
+	propDetailsNav.style.background = 'rgba(0, 0, 0, 0.568)';
+	propDetailsNav.style.backdropFilter = 'blur(20px';
+}
+
 const navbar = `
 	<nav class="container" id="nav-container">
 		<div class="brand-wrap">
@@ -9,7 +18,7 @@ const navbar = `
 			</a>
 		</div>
 
-		<ul class="link-wrap poppins-regular">
+		<ul class="nav-link link-wrap poppins-regular">
 			<li class="link">
 				<a href="/" >Home</a>
 			</li>
@@ -22,16 +31,21 @@ const navbar = `
 			<li class="link">
 				<a href="/#services">Our Services</a>
 			</li>
-			<!-- <li class="link">
-				<a href="#">Contact</a>
-			</li> -->
+			<li class="link">
+				<a href="/#contact-form">Contact</a>
+			</li>
 		</ul>
+
+		<div class="hamburger-wrap">
+			<i class="fa-solid fa-bars"></i>
+		</div>
 	</nav>
 `;
 
 export const showNavBar = () => {
 	if (navbarWrap) {
 		navbarWrap.innerHTML = navbar;
+		const navLink = document.querySelector('.nav-link');
 
 		const navContainer = document.getElementById('nav-container');
 		const brandLogoElem = document.querySelector('.brand-logo');
@@ -39,10 +53,12 @@ export const showNavBar = () => {
 		const modifyLogoSize = () => {
 			window.addEventListener('scroll', () => {
 				if (window.scrollY >= 200) {
-					// navContainer.classList.add('resize-nav');
-					// console.log(navContainer);
 					brandLogoElem.classList.add('change-logo-size');
-				} else brandLogoElem.classList.remove('change-logo-size');
+					navbarWrap.classList.add('blur-navbar');
+				} else {
+					navbarWrap.classList.remove('blur-navbar');
+					brandLogoElem.classList.remove('change-logo-size');
+				}
 			});
 		};
 

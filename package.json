@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start:webpack": "webpack-dev-server --config webpack.common.js ",
+		"start:webpack": "webpack-dev-server --config webpack.dev.js ",
 		"build": "webpack --config webpack.prod"
 	},
 	"author": "Victor Sky Emejor",

@@ -1,0 +1,46 @@
+@use '../resets';
+
+.contact-modal {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.473);
+	top: 0;
+	left: 0;
+	z-index: 4;
+	transition: all 0.5s ease-in;
+	transform: translateY(100%);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.fa-xmark {
+		position: absolute;
+		top: 7%;
+		right: 7%;
+		color: red;
+		font-size: 2rem;
+		cursor: pointer;
+	}
+
+	.wrap {
+		color: #fff;
+		text-align: center;
+
+		.fa-spin {
+			font-size: 3rem;
+			// color: resets.$accent-color;
+			display: inline-block;
+			margin-bottom: 0.5em;
+		}
+
+		.text {
+		}
+	}
+}
+
+.pull-up-modal {
+	transform: translateY(0);
+}

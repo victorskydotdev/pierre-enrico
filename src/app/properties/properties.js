@@ -49,16 +49,16 @@ const createPropertyTemplate = ({ id, src, title, location, price }) => {
     <div class="property-card" data-num-id="${id}">
       <div class="img-wrap">
         <div class="img-wrap">
-        ${Object.values(src)
-					.map(
-						(imgSrc, index) => `
-          <img src="${imgSrc}" alt="${title}" class="property-image ${
-							index === 0 ? 'active' : ''
-						}" />
-        `
-					)
-					.join('')}
-      </div>
+					${Object.values(src)
+						.map(
+							(imgSrc, index) => `
+						<img src="${imgSrc}" alt="${title}" class="property-image ${
+								index === 0 ? 'active' : ''
+							}" />
+					`
+						)
+						.join('')}
+				</div>
       </div>
 
       <div class="data-btns">
@@ -84,19 +84,15 @@ const createPropertyTemplate = ({ id, src, title, location, price }) => {
 export const renderPropertyTemplate = () => {
 	const featuredPropCard = document.querySelectorAll('.featured-prop-card');
 
-	if (featuredPropCard.length < images.length) {
-		console.error(
-			'Not enough .featured-prop-card elements to render all images.'
-		);
+	if (featuredPropCard) {
+		images.forEach((property, index) => {
+			const propertyTemplate = createPropertyTemplate(property);
 
-		return;
-	}
-
-	images.forEach((property, index) => {
-		const propertyTemplate = createPropertyTemplate(property);
-
-		featuredPropCard[index].innerHTML = propertyTemplate;
-	});
+			if (featuredPropCard[index]) {
+				featuredPropCard[index].innerHTML = propertyTemplate;
+			}
+		});
+	} else console.log('featuredPropCard element is not on this page');
 
 	// Add event listeners AFTER rendering
 	const propertyCards = document.querySelectorAll('.property-card');

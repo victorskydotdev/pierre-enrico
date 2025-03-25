@@ -24,9 +24,9 @@ const rentalImgWrap = document.querySelector('.rental-img-wrap');
 const reImgWrap = document.querySelector('.re-img-wrap');
 const shortletImgWrap = document.querySelector('.shortlet-img-wrap');
 
-if (posHeroImgWrap) {
-	console.log('yes');
-}
+// if (posHeroImgWrap) {
+// 	console.log('yes');
+// }
 
 export function loadLandingPageImgs() {
 	const credImgTemp = `
@@ -56,7 +56,7 @@ export function loadLandingPageImgs() {
 
 	if (credImgWrap && posHeroImgWrap && introSectionWrap && heroImgWrap) {
 		credImgWrap.innerHTML = credImgTemp;
-		posHeroImgWrap.innerHTML += posHeroTemplate;
+		// posHeroImgWrap.innerHTML += posHeroTemplate;
 		heroImgWrap.innerHTML += heroImgTemplate;
 		introSectionWrap.innerHTML += introImgTemplate;
 	}
