@@ -70,7 +70,9 @@ const createPropertyTemplate = ({
       </div>
       <div class="property-info">
         <h3 class="property-title">${title}</h3>
-        <p class="property-desc">${shortDesc}</p>
+        <p class="property-desc">${
+					shortDesc.length > 45 ? shortDesc.substring(0, 45) + '...' : shortDesc
+				}</p>
         <!-- <p class="property-price">${price}</p>
       	<p class="property-details">Bedrooms: ${bedrooms}, Bathrooms: ${bathrooms}</p> 
         <p class="property-address">${address}</p> -->

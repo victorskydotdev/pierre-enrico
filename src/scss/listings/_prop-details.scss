@@ -81,8 +81,9 @@
 			}
 
 			@media screen and (min-width: 62em) {
-				display: flex;
-				overflow-x: unset;
+				// display: flex;
+				// overflow-x: unset;
+				grid-auto-columns: 30%;
 			}
 		}
 

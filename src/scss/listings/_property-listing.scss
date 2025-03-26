@@ -53,13 +53,15 @@
 		@include resets.width-mixin();
 
 		.property-card {
-			display: grid;
-			gap: 1em;
 			width: 100%;
+			// background: teal;
 
 			.img-wrap {
 				width: 100%;
-				border-radius: 20px;
+				height: 300px;
+				overflow: hidden;
+				margin-bottom: 0;
+				margin-bottom: 0.4em;
 
 				.property-image {
 					height: 100%;
@@ -70,13 +72,13 @@
 
 			.property-info {
 				.property-title {
-					// margin-bottom: 0.5em;
+					margin-bottom: 0.5em;
 					@include resets.poppins-bold();
 				}
 
 				.property-desc {
 					@include resets.poppins-regular();
-					line-height: 1;
+					line-height: 1.4;
 					font-size: 0.9rem;
 					margin-bottom: 1.3em;
 				}
