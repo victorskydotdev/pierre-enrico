@@ -49,7 +49,7 @@
 
 	.property-wrap {
 		display: grid;
-		gap: 1em;
+		gap: 2em;
 		@include resets.width-mixin();
 
 		.property-card {

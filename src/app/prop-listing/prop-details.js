@@ -36,6 +36,18 @@ export const renderPropDetails = () => {
               <img src="${
 								prop.image[5] ? prop.image[5] : brandLogo
 							}"  class="img" alt="" />
+              <img src="${
+								prop.image[6] ? prop.image[6] : brandLogo
+							}"  class="img" alt="" />
+              <img src="${
+								prop.image[7] ? prop.image[7] : brandLogo
+							}"  class="img" alt="" />
+              <img src="${
+								prop.image[8] ? prop.image[8] : brandLogo
+							}"  class="img" alt="" />
+              <img src="${
+								prop.image[9] ? prop.image[9] : brandLogo
+							}"  class="img" alt="" />
             </div>
 
             <div class="more-info-wrap">
@@ -50,12 +62,16 @@ export const renderPropDetails = () => {
                 <div class="price-wrap">
                   <h4 class="price">${prop.price}</h4>
 
-                  <button class="btn contact-btn">Contact us</button>
+                  <div class="btn-wrap">
+                    <button class="btn contact-btn">Contact us</button>
+
+                    <button class="btn plan-visit-btn">Plan you visit</button>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="listing-features">
+            <!-- <div class="listing-features">
               <div class="text-wrap">
                 <h3 class="title">Features</h3>
               </div>
@@ -67,7 +83,7 @@ export const renderPropDetails = () => {
                 <span>Bedroom: ${prop.bedrooms}</span>
                 <span>Bedroom: ${prop.bedrooms}</span>
               </div>
-            </d>
+            </d> -->
           </div>
         `;
 			};

@@ -100,29 +100,29 @@ import apartment8Img10 from '../assets/apartment8/img10.jpeg';
 // end of apartment 8
 
 // apartment 9
-import apt9Img1 from '../assets/apartment8/img1.jpeg';
-import apt9Img2 from '../assets/apartment8/img2.jpeg';
-import apt9Img3 from '../assets/apartment8/img3.jpeg';
-import apt9Img4 from '../assets/apartment8/img4.jpeg';
-import apt9Img5 from '../assets/apartment8/img5.jpeg';
-import apt9Img6 from '../assets/apartment8/img6.jpeg';
-import apt9Img7 from '../assets/apartment8/img7.jpeg';
-import apt9Img8 from '../assets/apartment8/img7.jpeg';
-import apt9Img9 from '../assets/apartment8/img9.jpeg';
-import apt9Img10 from '../assets/apartment8/img10.jpeg';
+import apt9Img1 from '../assets/apartment9/img1.jpeg';
+import apt9Img2 from '../assets/apartment9/img2.jpeg';
+import apt9Img3 from '../assets/apartment9/img3.jpeg';
+import apt9Img4 from '../assets/apartment9/img4.jpeg';
+import apt9Img5 from '../assets/apartment9/img5.jpeg';
+import apt9Img6 from '../assets/apartment9/img6.jpeg';
+import apt9Img7 from '../assets/apartment9/img7.jpeg';
+import apt9Img8 from '../assets/apartment9/img7.jpeg';
+import apt9Img9 from '../assets/apartment9/img9.jpeg';
+import apt9Img10 from '../assets/apartment9/img10.jpeg';
 // end of apartment 9
 
 // apartment 10
-import apt10Img1 from '../assets/apartment9/img1.jpeg';
-import apt10Img2 from '../assets/apartment9/img2.jpeg';
-import apt10Img3 from '../assets/apartment9/img3.jpeg';
-import apt10Img4 from '../assets/apartment9/img4.jpeg';
-import apt10Img5 from '../assets/apartment9/img5.jpeg';
-import apt10Img6 from '../assets/apartment9/img6.jpeg';
-import apt10Img7 from '../assets/apartment9/img7.jpeg';
-import apt10Img8 from '../assets/apartment9/img8.jpeg';
-import apt10Img9 from '../assets/apartment9/img9.jpeg';
-import apt10Img10 from '../assets/apartment9/img10.jpeg';
+import apt10Img1 from '../assets/apartment10/img1.jpeg';
+import apt10Img2 from '../assets/apartment10/img2.jpeg';
+import apt10Img3 from '../assets/apartment10/img3.jpeg';
+import apt10Img4 from '../assets/apartment10/img4.jpeg';
+import apt10Img5 from '../assets/apartment10/img5.jpeg';
+import apt10Img6 from '../assets/apartment10/img6.jpeg';
+import apt10Img7 from '../assets/apartment10/img7.jpeg';
+import apt10Img8 from '../assets/apartment10/img8.jpeg';
+// import apt10Img9 from '../assets/apartment10/img9.jpeg';
+// import apt10Img10 from '../assets/apartment10/img10.jpeg';
 // end of apartment 10
 
 // apartment 11
@@ -848,8 +848,8 @@ export const propertyData = [
 			apt10Img6,
 			apt10Img7,
 			apt10Img8,
-			apt10Img9,
-			apt10Img10,
+			// apt10Img9,
+			// apt10Img10,
 		],
 		price: '950,000€',
 		bedrooms: 3,
