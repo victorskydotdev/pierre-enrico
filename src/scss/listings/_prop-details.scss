@@ -137,6 +137,34 @@
 						display: grid;
 						gap: 0.5em;
 
+						.contact-wrap {
+							display: flex;
+							gap: 0.3em;
+
+							a {
+								font-size: 13.5px;
+								display: flex;
+								justify-content: center;
+								gap: 0.4em;
+								align-items: center;
+
+								i {
+									font-size: 20px;
+								}
+
+								&:nth-child(1) {
+									background: grey;
+								}
+
+								&:nth-child(2) {
+									background: transparent;
+									border: solid 1.5px grey;
+									color: resets.$accent-color;
+									padding: 12px;
+								}
+							}
+						}
+
 						.btn {
 							text-transform: capitalize;
 							background: #f24d1d;

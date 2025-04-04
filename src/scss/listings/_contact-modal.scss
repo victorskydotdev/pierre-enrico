@@ -4,7 +4,7 @@
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.473);
+	background: rgba(0, 0, 0, 0.623);
 	top: 0;
 	left: 0;
 	z-index: 4;
@@ -12,12 +12,11 @@
 	transform: translateY(100%);
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
+	overflow: auto;
 
 	.fa-xmark {
-		position: absolute;
+		position: fixed !important;
 		top: 7%;
 		right: 7%;
 		color: red;

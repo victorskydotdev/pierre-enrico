@@ -63,7 +63,11 @@ export const renderPropDetails = () => {
                   <h4 class="price">${prop.price}</h4>
 
                   <div class="btn-wrap">
-                    <button class="btn contact-btn">Contact us</button>
+                    <div class="contact-wrap">
+											<a href="https://wa.me/+2348100784622?text=I want to make an enquiry for a particular property" target="_blank" class="btn contact-btn"><i class="fa-brands fa-whatsapp"></i> <span></span>WhatsApp</span></a>
+											
+											<a href="tel:+2348100784622" target="_blank" class="btn contact-btn"><i class="fa-solid fa-phone"></i> <span>Call</span></a>
+										</div>
 
                     <button class="btn plan-visit-btn">Plan you visit</button>
                   </div>
@@ -91,22 +95,126 @@ export const renderPropDetails = () => {
 			if (propertyDeetWrap) {
 				propertyDeetWrap.innerHTML = propCard();
 
-				const contactBtn = document.querySelector('.contact-btn');
+				const contactBtn = document.querySelector('.plan-visit-btn');
+				// const planVisitbtn = document.querySelector('.plan-visit-btn');
 
 				if (contactBtn) {
 					contactBtn.addEventListener('click', () => {
-						contactModal.classList.add('pull-up-modal');
+						setTimeout(() => {
+							contactModal.classList.add('pull-up-modal');
+							contactModal.innerHTML = formTemplate();
 
-						const closeBtn = document.querySelector('.close-btn');
+							// initializing the contact modal close button
+							const closeBtn = document.querySelector('.close-btn');
+							console.log(closeBtn);
 
-						if (closeBtn) {
-							closeBtn.addEventListener('click', () => {
-								contactModal.classList.remove('pull-up-modal');
-							});
-						}
+							// running the script to close the contact modal
+							if (closeBtn) {
+								closeBtn.addEventListener('click', () => {
+									contactModal.innerHTML = '';
+									contactModal.classList.remove('pull-up-modal');
+								});
+							}
+							// end of script to close the contact modal
+						}, 200);
 					});
 				}
 			}
 		} else console.log('Property Data not parsed');
 	}
+};
+
+const formTemplate = () => {
+	return `
+		<i class="fa-solid fa-xmark close-btn"></i>
+		<div class="contact-modal-form">
+				<form action="" class="form">
+					<!-- visiting date and time elements -->
+					<div class="visit-wrap">
+						<p class="identifier-text">Your availability</p>
+
+						<div class="container">
+							<div class="first-pos-wrap">
+								<h4 class="heading">First possibility:</h4>
+
+								<div class="wrapper">
+									<label for="date">Date:</label>
+									<input type="text" id="date" name="firstVisitDate" />
+								</div>
+
+								<div class="wrapper">
+									<label for="time">Time:</label>
+									<input type="text" id="time" name="firstVisitTime" />
+								</div>
+							</div>
+
+							<div class="second-pos-wrap">
+								<h4 class="heading">Second possibility:</h4>
+
+								<div class="wrapper">
+									<label for="date">Date:</label>
+									<input type="text" id="date" name="secondVisitDate" />
+								</div>
+
+								<div class="wrapper">
+									<label for="time">Time:</label>
+									<input type="text" id="time" name="secondVisitTime" />
+								</div>
+							</div>
+
+							<div class="third-pos-wrap">
+								<h4 class="heading">Third possibility:</h4>
+
+								<div class="wrapper">
+									<label for="date">Date:</label>
+									<input type="text" id="date" name="thirdVisitDate" />
+								</div>
+
+								<div class="wrapper">
+									<label for="time">Time:</label>
+									<input type="text" id="time" name="thirdVisitTime" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end of visiting time and date elements -->
+
+					<!-- user info begins here -->
+					<div class="user-info-wrap">
+						<p class="identifier-text">Your information</p>
+
+						<div class="selected-object-wrap">
+							<div class="wrapper">
+								<label for="property">Selected property:</label>
+								<input type="text" id="property" name="selectedProperty" />
+							</div>
+
+							<div class="message-wrap">
+								<div class="wrapper">
+									<label for="message">Message*</label>
+									<textarea name="message" id="message"></textarea>
+								</div>
+							</div>
+
+							<div class="first-name-wrap">
+								<div class="wrapper">
+									<label for="first-name">First name*</label>
+									<input name="firstName" id="first-name" />
+								</div>
+
+								<div class="wrapper">
+									<label for="last-name">Last name*</label>
+									<input name="lastName" id="last-name" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end of user info -->
+
+					<div class="btn-wrap">
+						<button class="submit-btn">Submit</button>
+					</div>
+				</form>
+			</div>	
+	`;
 };
