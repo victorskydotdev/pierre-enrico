@@ -6,7 +6,10 @@ const template = `
   <div class="container">
     <div class="top-wrapper">
       <div class="wrap">
-        <h4><i class="fa-solid fa-location-dot"></i> Monte Carlo Sun, Bd d'italie 74, 98000, Monaco</h4>
+        <h4>
+          <i class="fa-solid fa-location-dot"></i> 
+          <span>Monte Carlo Sun, Bd d'italie 74, 98000, Monaco</span>
+        </h4>
       </div>
 
       <ul class="wrap poppins-medium">
@@ -21,21 +24,20 @@ const template = `
         <li>
           <a href="#">Contact</a>
         </li>
+        
+        <li>
+          <a href="/privacy-policy.html">Privacy Policy</a>
+        </li>
+        
+        <li>
+          <a href="terms.html">Terms of Service</a>
+        </li>
       </ul>
 
       <div class="wrap social-media-wrap">
         <a href="https://www.instagram.com/pierreenricoimmobilier/" target="_blank">
           <i class="fa-brands fa-instagram"></i>
         </a>
-        <!-- <a href="">
-          <i class="fa-brands fa-facebook"></i>
-        </a>
-        <a href="">
-          <i class="fa-brands fa-x-twitter"></i>
-        </a>
-        <a href="">
-          <i class="fa-brands fa-linkedin"></i>
-        </a> -->
       </div>
     </div>
 

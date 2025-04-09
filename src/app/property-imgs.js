@@ -609,6 +609,7 @@ import apt45Img10 from '../assets/apartment45/img10.jpeg';
 export const propertyData = [
 	{
 		id: 1,
+		propertyObject: 'prop111-propobject',
 		type: 'all property',
 		title: 'Bright and modern work studio',
 		shortDesc:

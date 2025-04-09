@@ -90,18 +90,28 @@
 
 		@media screen and (min-width: 62em) {
 			.top-wrapper {
+				width: 100%;
 				padding: 1em 2em;
 				display: flex;
 				justify-content: space-between;
-				align-items: center;
+				align-items: flex-end;
 				background: transparent;
 
 				.wrap {
 					&:nth-child(1) {
 						color: #7a7a7a;
-						// background: red;
-						// max-width: 350px;
+						margin-right: 4em;
 						width: 100%;
+						display: flex;
+
+						i {
+							display: inline-block;
+							color: resets.$accent-color;
+						}
+
+						span {
+							display: inline-block;
+						}
 					}
 
 					&:nth-child(2) {
@@ -113,6 +123,7 @@
 						li {
 							a {
 								color: #7a7a7a;
+								text-wrap: nowrap;
 							}
 						}
 					}

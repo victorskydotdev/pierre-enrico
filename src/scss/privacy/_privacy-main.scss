@@ -1,0 +1,89 @@
+@use '../resets';
+
+.privacy-main,
+.terms-main {
+	min-height: 50vh;
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: grey;
+		height: 500px;
+		margin-bottom: 1.5em;
+		position: relative;
+
+		img {
+			position: absolute;
+			height: 150px;
+			width: 150px;
+			object-fit: contain;
+			z-index: 2;
+			top: 20%;
+		}
+
+		.heading {
+			position: relative;
+			z-index: 2;
+			color: resets.$light;
+		}
+	}
+
+	.meta-data {
+		text-align: center;
+		display: grid;
+		gap: 1em;
+		margin-bottom: 5em;
+		color: resets.$grey;
+	}
+
+	.article {
+		margin: 0 auto;
+		width: 90%;
+		margin-bottom: 5em;
+		display: grid;
+		gap: 3em;
+
+		.wrap {
+			display: grid;
+			gap: 1em;
+
+			.heading,
+			.text {
+				font-family: 'Poppins', sans-serif;
+			}
+
+			.heading {
+				@include resets.poppins-bold();
+				color: resets.$dark;
+			}
+
+			.text {
+				color: resets.$grey;
+				line-height: 1.8;
+				font-size: 15px;
+			}
+
+			.list {
+				display: grid;
+				gap: 1em;
+				margin-left: 2em;
+
+				li {
+					color: resets.$grey;
+					line-height: 1.8;
+					font-size: 15px;
+					list-style: disc;
+				}
+			}
+		}
+
+		@media screen and (min-width: 43em) {
+			width: 80%;
+		}
+
+		@media screen and (min-width: 62em) {
+			width: 60%;
+		}
+	}
+}

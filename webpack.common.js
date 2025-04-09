@@ -32,6 +32,20 @@ module.exports = {
 			// 	favicon: './src/assets/brand.png', // Path to your favicon
 		}),
 
+		new HtmlWebpackPlugin({
+			template: './src/html/privacy-policy.html',
+			chunks: ['main'],
+			filename: 'privacy-policy.html',
+			// 	favicon: './src/assets/brand.png', // Path to your favicon
+		}),
+
+		new HtmlWebpackPlugin({
+			template: './src/html/terms.html',
+			chunks: ['main'],
+			filename: 'terms.html',
+			// 	favicon: './src/assets/brand.png', // Path to your favicon
+		}),
+
 		new Dotenv({
 			systemvars: true,
 		}),

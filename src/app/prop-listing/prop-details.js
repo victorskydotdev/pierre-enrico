@@ -9,7 +9,7 @@ export const renderPropDetails = () => {
 	if (propertyDeetWrap) {
 		const prop = JSON.parse(sessionStorage.getItem('selectedProperty'));
 
-		console.log(prop);
+		// console.log(prop);
 
 		if (prop) {
 			const propCard = () => {
@@ -104,9 +104,15 @@ export const renderPropDetails = () => {
 							contactModal.classList.add('pull-up-modal');
 							contactModal.innerHTML = formTemplate();
 
+							const propIDInput = document.querySelector('.prop-id-input');
+
+							// parse the property identifier into the appropiate input field
+							if (contactModal) {
+								propIDInput.value = prop.propertyObject;
+							}
+
 							// initializing the contact modal close button
 							const closeBtn = document.querySelector('.close-btn');
-							console.log(closeBtn);
 
 							// running the script to close the contact modal
 							if (closeBtn) {
@@ -116,6 +122,39 @@ export const renderPropDetails = () => {
 								});
 							}
 							// end of script to close the contact modal
+
+							// initializing the form elements
+							const form = document.querySelector('.form');
+
+							if (form) {
+								form.addEventListener('submit', (e) => {
+									e.preventDefault();
+
+									const formData = new FormData(form);
+									const data = Object.fromEntries(formData.entries());
+									console.log(data);
+
+									// sending the form data to the server
+									fetch('/.netlify/functions/email-notification', {
+										method: 'POST',
+										body: JSON.stringify(data),
+										headers: {
+											'Content-Type': 'application/json',
+										},
+									})
+										.then((response) => response.json())
+										.then((data) => {
+											console.log('Message:', data.status);
+											alert('Form submitted successfully');
+											contactModal.innerHTML = '';
+											contactModal.classList.remove('pull-up-modal');
+										})
+										.catch((error) => {
+											console.error('Error:', error);
+											alert('An error occurred while submitting the form');
+										});
+								});
+							}
 						}, 200);
 					});
 				}
@@ -124,7 +163,7 @@ export const renderPropDetails = () => {
 	}
 };
 
-const formTemplate = () => {
+const formTemplate = (callback) => {
 	return `
 		<i class="fa-solid fa-xmark close-btn"></i>
 		<div class="contact-modal-form">
@@ -186,7 +225,7 @@ const formTemplate = () => {
 						<div class="selected-object-wrap">
 							<div class="wrapper">
 								<label for="property">Selected property:</label>
-								<input type="text" id="property" name="selectedProperty" />
+								<input type="text" class="prop-id-input" id="property" name="selectedProperty" />
 							</div>
 
 							<div class="message-wrap">
