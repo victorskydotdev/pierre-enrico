@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-$accent-color: #f24d1d;
-$dark: #383838;
-$light: #fff;
-$grey: #7a7a7a;
-
 *,
 *::before,
 *::after {
@@ -12,6 +7,12 @@ $grey: #7a7a7a;
 	margin: 0;
 	box-sizing: border-box;
 }
+
+$accent-color: #f24d1d;
+$dark: #383838;
+$light: #fff;
+$grey: #7a7a7a;
+$darker: #141414;
 
 html {
 	scroll-behavior: smooth;

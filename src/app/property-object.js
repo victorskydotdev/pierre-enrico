@@ -1,11 +1,16 @@
 // images' imports
 
 // bnm work studio
-import bnmImg1 from '../assets/bnm-work-studio/img1.jpeg';
-import bnmImg2 from '../assets/bnm-work-studio/img2.jpeg';
-import bnmImg3 from '../assets/bnm-work-studio/img3.jpeg';
-import bnmImg4 from '../assets/bnm-work-studio/img4.jpeg';
-import bnmImg5 from '../assets/bnm-work-studio/img5.jpeg';
+import apt1img1 from '../assets/apartment1/img1.jpeg';
+import apt1img2 from '../assets/apartment1/img2.jpeg';
+import apt1img3 from '../assets/apartment1/img3.jpeg';
+import apt1img4 from '../assets/apartment1/img4.jpeg';
+import apt1img5 from '../assets/apartment1/img5.jpeg';
+import apt1img6 from '../assets/apartment1/img6.jpeg';
+import apt1img7 from '../assets/apartment1/img7.jpeg';
+import apt1img8 from '../assets/apartment1/img8.jpeg';
+import apt1img9 from '../assets/apartment1/img9.jpeg';
+import apt1img10 from '../assets/apartment1/img10.jpeg';
 // end of bnm work studio
 
 // bnm work studio
@@ -121,8 +126,8 @@ import apt10Img5 from '../assets/apartment10/img5.jpeg';
 import apt10Img6 from '../assets/apartment10/img6.jpeg';
 import apt10Img7 from '../assets/apartment10/img7.jpeg';
 import apt10Img8 from '../assets/apartment10/img8.jpeg';
-// import apt10Img9 from '../assets/apartment10/img9.jpeg';
-// import apt10Img10 from '../assets/apartment10/img10.jpeg';
+import apt10Img9 from '../assets/apartment10/img9.jpeg';
+import apt10Img10 from '../assets/apartment10/img10.jpeg';
 // end of apartment 10
 
 // apartment 11
@@ -174,7 +179,7 @@ import apt14Img6 from '../assets/apartment14/img6.jpeg';
 import apt14Img7 from '../assets/apartment14/img7.jpeg';
 import apt14Img8 from '../assets/apartment14/img8.jpeg';
 import apt14Img9 from '../assets/apartment14/img9.jpeg';
-// import apt14Img10 from '../assets/apartment14/img10.jpeg';
+import apt14Img10 from '../assets/apartment14/img10.jpeg';
 // end of apartment 14
 
 // apartment 15
@@ -186,8 +191,8 @@ import apt15Img5 from '../assets/apartment15/img5.jpeg';
 import apt15Img6 from '../assets/apartment15/img6.jpeg';
 import apt15Img7 from '../assets/apartment15/img7.jpeg';
 import apt15Img8 from '../assets/apartment15/img8.jpeg';
-// import apt15Img9 from '../assets/apartment15/img9.jpeg';
-// import apt15Img10 from '../assets/apartment15/img10.jpeg';
+import apt15Img9 from '../assets/apartment15/img9.jpeg';
+import apt15Img10 from '../assets/apartment15/img10.jpeg';
 // end of apartment 15
 
 // apartment 16
@@ -200,7 +205,7 @@ import apt16Img6 from '../assets/apartment16/img6.jpeg';
 import apt16Img7 from '../assets/apartment16/img7.jpeg';
 import apt16Img8 from '../assets/apartment16/img8.jpeg';
 import apt16Img9 from '../assets/apartment16/img9.jpeg';
-// import apt16Img10 from '../assets/apartment16/img10.jpeg';
+import apt16Img10 from '../assets/apartment16/img10.jpeg';
 // end of apartment 16
 
 // apartment 17
@@ -303,8 +308,8 @@ import apt24Img5 from '../assets/apartment24/img5.jpeg';
 import apt24Img6 from '../assets/apartment24/img6.jpeg';
 import apt24Img7 from '../assets/apartment24/img7.jpeg';
 import apt24Img8 from '../assets/apartment24/img8.jpeg';
-// import apt24Img9 from '../assets/apartment24/img9.jpeg';
-// import apt24Img10 from '../assets/apartment24/img10.jpeg';
+import apt24Img9 from '../assets/apartment24/img9.jpeg';
+import apt24Img10 from '../assets/apartment24/img10.jpeg';
 // end of apartment 24
 
 // apartment 25
@@ -315,9 +320,9 @@ import apt25Img4 from '../assets/apartment25/img4.jpeg';
 import apt25Img5 from '../assets/apartment25/img5.jpeg';
 import apt25Img6 from '../assets/apartment25/img6.jpeg';
 import apt25Img7 from '../assets/apartment25/img7.jpeg';
-// import apt25Img8 from '../assets/apartment25/img8.jpeg';
-// import apt25Img9 from '../assets/apartment25/img9.jpeg';
-// import apt25Img10 from '../assets/apartment25/img10.jpeg';
+import apt25Img8 from '../assets/apartment25/img8.jpeg';
+import apt25Img9 from '../assets/apartment25/img9.jpeg';
+import apt25Img10 from '../assets/apartment25/img10.jpeg';
 // end of apartment 25
 
 // apartment 26
@@ -341,9 +346,9 @@ import apt27Img4 from '../assets/apartment27/img4.jpeg';
 import apt27Img5 from '../assets/apartment27/img5.jpeg';
 import apt27Img6 from '../assets/apartment27/img6.jpeg';
 import apt27Img7 from '../assets/apartment27/img7.jpeg';
-// import apt27Img8 from '../assets/apartment27/img8.jpeg';
-// import apt27Img9 from '../assets/apartment27/img9.jpeg';
-// import apt27Img10 from '../assets/apartment27/img10.jpeg';
+import apt27Img8 from '../assets/apartment27/img8.jpeg';
+import apt27Img9 from '../assets/apartment27/img9.jpeg';
+import apt27Img10 from '../assets/apartment27/img10.jpeg';
 // end of apartment 27
 
 // apartment 28
@@ -355,8 +360,8 @@ import apt28Img5 from '../assets/apartment28/img5.jpeg';
 import apt28Img6 from '../assets/apartment28/img6.jpeg';
 import apt28Img7 from '../assets/apartment28/img7.jpeg';
 import apt28Img8 from '../assets/apartment28/img8.jpeg';
-// import apt28Img9 from '../assets/apartment28/img9.jpeg';
-// import apt28Img10 from '../assets/apartment28/img10.jpeg';
+import apt28Img9 from '../assets/apartment28/img9.jpeg';
+import apt28Img10 from '../assets/apartment28/img10.jpeg';
 // end of apartment 28
 
 // apartment 29
@@ -382,7 +387,7 @@ import apt30Img6 from '../assets/apartment30/img6.jpeg';
 import apt30Img7 from '../assets/apartment30/img7.jpeg';
 import apt30Img8 from '../assets/apartment30/img8.jpeg';
 import apt30Img9 from '../assets/apartment30/img9.jpeg';
-import apt30Img10 from '../assets/apartment30/img10.jpeg';
+// import apt30Img10 from '../assets/apartment30/img10.jpeg';
 // end of apartment 30
 
 // apartment 31
@@ -420,7 +425,7 @@ import apt33Img5 from '../assets/apartment33/img5.jpeg';
 import apt33Img6 from '../assets/apartment33/img6.jpeg';
 import apt33Img7 from '../assets/apartment33/img7.jpeg';
 import apt33Img8 from '../assets/apartment33/img8.jpeg';
-// import apt33Img9 from '../assets/apartment33/img9.jpeg';
+import apt33Img9 from '../assets/apartment33/img9.jpeg';
 // import apt33Img10 from '../assets/apartment33/img10.jpeg';
 // end of apartment 33
 
@@ -611,25 +616,41 @@ export const propertyData = [
 		id: 1,
 		propertyObject: 'prop111-propobject',
 		type: 'all property',
-		title: 'Bright and modern work studio',
+		title: 'VIEUX-NICE',
 		shortDesc:
 			'ideally located in a typical and colorful street of Vieux-nice, 2 steps from the saleye course and the sea, studio of [2][0]m2 renovated, air conditioned and furnished, [1] living room with an open kitchen of [1][8]m2,[1] bathroom',
 		longDesc:
-			'ideally located in a typical and colorful street of Vieux-nice, 2 steps from the saleye course and the sea, studio of [2][0]m2 renovated, air conditioned and furnished, [1] living room with an open kitchen of [1][8]m2,[1] bathroom',
-		image: [bnmImg1, bnmImg2, bnmImg3, bnmImg4, bnmImg5],
-		price: '156,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		kitchen: '',
-		address: '',
+			'3 rooms of 41 m² renovated and furnished, in the heart of the old town 2 steps from the Cours Saleya and the sea. Located on the 4th and penultimate floor without elevator of a beautiful building, this apartment consists of a living room with open kitchen of 19 m², a bedroom, a 2nd bedroom with its loggia of 3 m² on courtyard and a shower room with WC. This air-conditioned apartment is ideal for a pied-à-terre or rental investment.',
+		image: [
+			apt1img1,
+			apt1img2,
+			apt1img3,
+			apt1img4,
+			apt1img5,
+			apt1img6,
+			apt1img8,
+			apt1img9,
+			apt1img10,
+		],
+		price: '329,000€',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '40.82 m2',
+
+			landTax: '507',
+			ref: 'C - 2699',
+		},
+		category: 'apartment',
 	},
 
 	{
 		id: 2,
+		propertyCode: '',
 		type: 'all property',
 		title: 'Cannes Montfleury',
 		shortDesc:
 			'Ideally located, this completely renovated villa offers an exceptional quality of life.',
+
 		longDesc:
 			'Nestled in the heart of the Montfleury sector, in absolute calm, it offers refined, modern living spaces with luxurious Balinese inspirations. It has two bedrooms with dressing room but also two master suites with their own bathroom. The elegant master bedroom has an island bathtub, a double shower, but also a dressing room. Regarding the living space, the living room and kitchen totals 48 m2 of space. Every detail has been designed to make your living space an inspiring and relaxing experience. The fully equipped American kitchen can accommodate 9 guests at the table in total. The landscaped garden has 220m2 of surface, it is a real haven of peace where you can enjoy a jacuzzi for 7 people but also a bowling alley. You will be able to park a total of 4 vehicles in your private parking lots without counting parking outside the property',
 		image: [
@@ -644,10 +665,15 @@ export const propertyData = [
 			cannesMont9,
 			cannesMont10,
 		],
-		price: 'Contact for price',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '1,150,000€',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '131 m2',
+			bathrooms: 2,
+			landTax: '2,500€',
+			ref: '85323041',
+		},
+		category: 'villa',
 	},
 
 	{
@@ -672,19 +698,25 @@ export const propertyData = [
 			villaHouse10,
 		],
 		price: 'contact for price',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '50 m2',
+			bathrooms: 2,
+			landTax: '',
+			ref: 'prop111-propobject',
+		},
+		category: 'villa',
+		status: 'sold',
 	},
 
 	{
 		id: 4,
 		type: 'all property',
-		title: 'The Villa',
+		title: 'Maison, Nice Cimiez',
 		shortDesc:
 			'Opposite the Regina, superb bourgeois house of 213m2, completely renovated, benefiting from high standard services, on grounds with swimming pool, numerous fruit trees and garage.',
 		longDesc:
-			'The villa is composed as follows: On the ground floor: - Entrance, - Stay, - WC, - Kitchen On the 1st floor: - Landing, - 3 bedrooms, one with balcony, - 1 bathroom with toilet, - 2 bathrooms with toilet On the garden level: - Landing, - 2 bedrooms, - Shower room with toilet, - Cellar, - Laundry room. Accessible by an internal staircase, an extremely rare roof terrace of almost 80m2 offers a 360-degree view of the sea, the city and the mountains. Finally, a comfortable garage at the end of a driveway allowing other parking within the property allows easy access. All in the immediate vicinity of renowned amenities and educational establishments.',
+			'The villa is composed as follows: On the ground floor: Entrance, Stay, WC, - Kitchen On the 1st floor: - Has 3 bedrooms, one with balcony, - 1 bathroom with toilet, and 2 bathrooms with toilet. On the garden level: - Has 2 bedrooms, Shower room with toilet, a wine Cellar, Laundry room accessible by an internal staircase, an extremely rare roof terrace of almost 80m2 offers a 360-degree view of the sea, the city and the mountains. Finally, a comfortable garage at the end of a driveway allowing other parking within the property allowing easy access. All in the immediate vicinity of renowned amenities and educational establishments.',
 		image: [
 			theVill1,
 			theVill2,
@@ -697,16 +729,21 @@ export const propertyData = [
 			theVill9,
 			theVill10,
 		],
-		price: 'Contact for price',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '2,400,000€',
+		moreInfo: {
+			bedrooms: 5,
+			surface: '217m2',
+			landTax: '2,097€',
+			ref: 'Z - 06000, Nice',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 5,
 		type: 'all property',
-		title: 'Fabulous villa',
+		title: 'Vente - Villa',
 		shortDesc:
 			'Fabulous villa of 320m2 on 3 levels with elevator, built in 1991 and to be refreshed, with salt swimming pool, not overlooked and offering a breathtaking panoramic view from each of its levels.',
 		longDesc:
@@ -723,16 +760,21 @@ export const propertyData = [
 			fabVilla9,
 			fabVilla10,
 		],
-		price: 'Contact for price',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '',
+		price: '7,250,000€',
+		moreInfo: {
+			bedrooms: 6,
+			surface: '320 m2',
+			landTax: '6,567€',
+			ref: 'Z - 06000, Nice',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 6,
 		type: 'short-let',
-		title: 'Beautiful Apartment',
+		title: 'Appartement Nice, Cimiez',
 		shortDesc: 'Spacious apartment in a great location.',
 		longDesc:
 			"Located in one of the most beautiful Belle Epoque palaces in the city with concierge, in the heart of the Cimiez district, come and discover this magnificent 4-room bourgeois apartment of 208m2 (Carrez). Facing South/West, it benefits from a breathtaking view of the sea, the city, and its listed park. This property will seduce you with its luxury and elegance thanks to its period moldings and parquet floors. Located on the 2nd floor with elevator, in one of the hotel's three former suites, all of its rooms open onto their balconies. High ceilings and majestic volumes. It is composed as follows: - An entrance serving all the rooms - A corner living room - Two large bedrooms en suite with private bathrooms and toilets - A third bedroom now used as an office - A large independent kitchen - A laundry room and a large cupboard formerly bathrooms - A separate toilet - Plenty of storage and cupboards.",
@@ -748,16 +790,21 @@ export const propertyData = [
 			apartmentImg9,
 			apartmentImg10,
 		],
-		price: ' 850,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '1,570,000€',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '209.25 m2',
+			landTax: '3,250€',
+			ref: 'Z - 06000, Nice',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
 		id: 7,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Superbe Villa Familiale',
 		shortDesc:
 			'In a dominant position offering a very beautiful open view, superb Provençal style family house in a confidential domain of 6 properties, totaling 250m2 spread over 2 levels and bordered by a garden planted with Mediterranean species, a pétanque court, a traditional salt swimming pool of 11.5m x 5m redone in 2018 (and can be heated), all on a quiet plot of 2500m2 absolute.',
 		longDesc:
@@ -774,16 +821,22 @@ export const propertyData = [
 			apartment7Img9,
 			apartment7Img10,
 		],
-		price: ' 1,75O,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: ' 2,35O,000€',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '',
+
+			landTax: '4,855€',
+			ref: 'Z - 06000, Nice',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 8,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Villa Roquebrune-Cap-Martin',
 		shortDesc:
 			'Luxurious 600m2 villa on 3 levels built in 2020 and benefiting from full home automation, an elevator, surveillance cameras as well as numerous parking spaces and a breathtaking view!',
 		longDesc:
@@ -800,16 +853,21 @@ export const propertyData = [
 			apartment8Img9,
 			apartment8Img10,
 		],
-		price: '4,500€/Night',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '2,650,000€',
+		moreInfo: {
+			bedrooms: 6,
+			surface: '570 m2',
+			landTax: '4,860€',
+			ref: 'Z - 06190',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 9,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Roquebrune-Cap-Martin',
 		shortDesc:
 			'Exceptional villa of 350 m2, secure, not overlooked and in absolute calm with numerous terraces offering superb panoramic sea and mountain views from each level.',
 		longDesc:
@@ -826,16 +884,22 @@ export const propertyData = [
 			apt9Img9,
 			apt9Img10,
 		],
-		price: '2,500,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '4,950,000€',
+		moreInfo: {
+			bedrooms: 4,
+			surface: '350 m2',
+
+			landTax: '',
+			ref: 'Z - 06190, Roquebrune-Cap-Martin',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 10,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Saint-Jean-Cap-Ferrat',
 		shortDesc:
 			'Located on the peninsula of Saint-Jean-Cap-Ferrat, beautiful apartment with stunning sea view and beautiful terrace extented with a garden.',
 		longDesc:
@@ -849,19 +913,25 @@ export const propertyData = [
 			apt10Img6,
 			apt10Img7,
 			apt10Img8,
-			// apt10Img9,
-			// apt10Img10,
+			apt10Img9,
+			apt10Img10,
 		],
-		price: '950,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '1,950,000€',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '97 m2',
+
+			landTax: '2,000€',
+			ref: '1074 - SJCF',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 11,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Fully renovated contemporary villa',
 		shortDesc:
 			'Surrounding the Principality of Monaco, on a flat land plot of about 835 sqm, fully renovated contemporary villa just delivered in 2023. The property immediately spreads a sensation of well being and serenity.',
 		longDesc:
@@ -878,16 +948,22 @@ export const propertyData = [
 			apt11Img9,
 			apt11Img10,
 		],
-		price: '3,500,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '4,500,000€',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '835 m2',
+
+			landTax: '3,041€',
+			ref: 'Z - 84910360',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 12,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Roquebrune-Cap-Martin, Le Hameau District',
 		shortDesc:
 			'Located in a sought- after area of Roquebrune, close to all amenities, pretty Provencal- style villa luxuriously renovated with high-end materials.',
 		longDesc:
@@ -904,16 +980,22 @@ export const propertyData = [
 			apt12Img9,
 			apt12Img10,
 		],
-		price: '1,500,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '2,200,000€',
+		moreInfo: {
+			bedrooms: 4,
+			surface: '182 m2',
+			bathrooms: 2,
+			landTax: '2,100€',
+			ref: 'BS - 10875',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 13,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Luxiurious, Inovated 3BR Apartment',
 		shortDesc:
 			'An exceptional apartment located on the top floor, offering breathtaking sea views, in one of the most sought-after residences in Beaulieu, dating back to 1885.',
 		longDesc:
@@ -931,15 +1013,21 @@ export const propertyData = [
 			apt13Img10,
 		],
 		price: '1,200,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '101 m2',
+
+			landTax: '1,300€',
+			ref: 'BS - 84185471',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
 		id: 14,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Grande Corniche',
 		shortDesc:
 			'Located in a quiet area, charming house of 270 sqm on a land of 2430 sqm with trees .',
 		longDesc:
@@ -953,19 +1041,25 @@ export const propertyData = [
 			apt14Img6,
 			apt14Img7,
 			apt14Img8,
-			// apt14Img9,
-			// apt14Img10,
+			apt14Img9,
+			apt14Img10,
 		],
-		price: '2,500,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '2,650,000€',
+		moreInfo: {
+			bedrooms: 7,
+			surface: '270 m2',
+			bathrooms: 2,
+			landTax: '2,600€',
+			ref: '1028, Nice',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 15,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'VillaFrenche-Sur-Mer',
 		shortDesc:
 			'Walking distance from the center of Villefranche-sur-Mer, large studio of 31 sqm, fully renovated in 2018.',
 		longDesc:
@@ -979,19 +1073,25 @@ export const propertyData = [
 			apt15Img6,
 			apt15Img7,
 			apt15Img8,
-			// apt15Img9,
-			// apt15Img10,
+			apt15Img9,
+			apt15Img10,
 		],
 		price: '250,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 1,
+			surface: '31 m2',
+
+			landTax: '555€',
+			ref: '85001834',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
 		id: 16,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Top floor apartment - Roquebrune-Cap-Martin',
 		shortDesc:
 			'In a luxurious residence in the heart of Cap Martin, a top-floor apartment was recently renovated in a modern style.',
 		longDesc:
@@ -1006,17 +1106,22 @@ export const propertyData = [
 			apt16Img7,
 			apt16Img8,
 			apt16Img9,
-			// apt16Img10,
+			apt16Img10,
 		],
-		price: '1,220,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '1,380,000€',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '76 m2',
+			landTax: '2,013€',
+			ref: '84515530',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 17,
-		type: 'all property',
+		type: 'Rental',
 		title: 'Beautiful Apartment',
 		shortDesc:
 			'BOTTICELLI Enjoy beautiful views on Fontvieille marina and the Rock from this stunning 3 bedroom home with terrace.',
@@ -1035,14 +1140,19 @@ export const propertyData = [
 			// apt17Img10,
 		],
 		price: '4,800€/month',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '50 m2',
+			bathrooms: 2,
+			landTax: '',
+			ref: 'prop111-propobject',
+		},
+		category: '',
 	},
 
 	{
 		id: 18,
-		type: 'all property',
+		type: 'Rental',
 		title: 'Beautiful Apartment',
 		shortDesc: 'Spacious apartment in a great location.',
 		longDesc:
@@ -1060,15 +1170,20 @@ export const propertyData = [
 			// apt18Img10,
 		],
 		price: '680,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '50 m2',
+			bathrooms: 2,
+			landTax: '',
+			ref: 'prop111-propobject',
+		},
+		category: '',
 	},
 
 	{
 		id: 19,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Luxury Villa',
 		shortDesc:
 			'Nice, Port area, in the highly renowned private estate of Parc Louisa, just a few minutes from the beach, the Port, shops, and restaurants, magnificent fully renovated bourgeois house of 315 sqm over 3 levels, with a flat plot of 800 sqm, possibility to build a swimming pool.',
 		longDesc:
@@ -1085,20 +1200,25 @@ export const propertyData = [
 			apt19Img9,
 			apt19Img10,
 		],
-		price: '1,200,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '2,900,000€',
+		moreInfo: {
+			bedrooms: 6,
+			surface: '315 m2',
+			landTax: '5,000€',
+			ref: 'B - 1431',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 20,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'NICE - RUE DE FRANCE / BAUMETTES',
 		shortDesc:
-			'Nice Mont Boron - Charming villa of 169sqm, ideally located in a very prestigious area of Nice, quiet.',
+			'In a private street close to the Promenade des Anglais and tramway.',
 		longDesc:
-			'Nice Mont Boron - Charming villa of 169sqm, ideally located in a very prestigious area of Nice, quiet.  The house benefits from a beautiful garden with swimming pool and consists of the following: On the first floor, an entrance leading to a large living/dining room, a kitchen, two bedrooms with fitted wardrobes, a bathroom and a separate toilet.  On the ground floor, an apartment with independent entrance comprising: an entrance, opening onto a living room with open kitchen, a bathroom with toilet, a bedroom, a large office, a technical room as well as a laundry room.   A garage completes this villa which is located close to beaches, shops, schools and buses. Possibility to build a second villa on the property. Fees charged to the purchaser (5%).',
+			'In a private street close to the Promenade des Anglais and tramway. Very attractive apartment/villa of 135 sqm opening onto 100 sqm of terrace and garden.  The first 3 bedroom apartment comprises an entrance hall, living room with fitted kitchen, 3 bedrooms, 2 bathrooms and fitted closets. A second 2 bedroom apartment comprising a living room with fitted kitchen, 2 bedrooms, shower room and cupboards.  2 cellars and 2 parking spaces complete this rare',
 		image: [
 			apt20Img1,
 			apt20Img2,
@@ -1111,16 +1231,21 @@ export const propertyData = [
 			apt20Img9,
 			apt20Img10,
 		],
-		price: '3,450,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '1,150,000€',
+		moreInfo: {
+			bedrooms: 5,
+			surface: '135.02 m2',
+			landTax: '1,600€',
+			ref: 'A - 23131',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 21,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'NICE ZONE PIETONNE',
 		shortDesc:
 			'NICE ZONE PIETONNE: 64 m², 3-room apartment located 50 m from Place Massena, in a well-kept building currently being refurbished.',
 		longDesc:
@@ -1137,16 +1262,22 @@ export const propertyData = [
 			apt21Img9,
 			apt21Img10,
 		],
-		price: '850,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '595,000€',
+		moreInfo: {
+			bedrooms: 2,
+			surface: '64.15 m2',
+
+			landTax: '660',
+			ref: 'P - 9923',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
 		id: 22,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'NICE RUE BLACAS - DUBOUCHAGE',
 		shortDesc:
 			'NICE RUE BLACAS - DUBOUCHAGE: renovated, air-conditioned 2 bedroom apartment of 69sqm with balconies, in the heart of the city, 2 steps from shops, amenities and the 2 tramway lines.',
 		longDesc:
@@ -1164,15 +1295,21 @@ export const propertyData = [
 			apt22Img10,
 		],
 		price: '600,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 2,
+			surface: '69 m2',
+
+			landTax: '2,600',
+			ref: 'N - 35026',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
 		id: 23,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Nice -  Cimiez',
 		shortDesc:
 			'Nice, Discover this splendid apartement ideally located in the heart of the Cimiez residential area.',
 		longDesc:
@@ -1189,20 +1326,26 @@ export const propertyData = [
 			apt23Img9,
 			apt23Img10,
 		],
-		price: '550,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '519,000€',
+		moreInfo: {
+			bedrooms: 2,
+			surface: '81 m2',
+
+			landTax: '1,735',
+			ref: 'V - 12006',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
 		id: 24,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'VILLEFRANCHE SUR MER',
 		shortDesc:
-			'NICE - GORBELLA: Close to amenities and the Gorbella tramway. This 45m² 2-room apartment is located on the 3rd floor of a well-maintained condominium with elevator.',
+			"In Villefranche-sur-Mer, close to the citadel and the Old Town, there's a beautifully renovated penthouse",
 		longDesc:
-			'NICE - GORBELLA: Close to amenities and the Gorbella tramway. This 45m² 2-room apartment is located on the 3rd floor of a well-maintained condominium with elevator. It consists of a living room with open kitchen opening onto a beautiful south-facing terrace, a bedroom also opening onto the same terrace, a shower room and separate toilet. A cellar completes this property. Apartment in perfect condition, with double glazing, very bright, quiet and not overlooked Ideal for a first purchase or rental investment.',
+			"In Villefranche-sur-Mer, close to the citadel and the Old Town, there's a beautifully renovated penthouse, designed by an architect. This 4-room property spans 141m² with over 110m² of terraces, boasting a magnificent view of the Old Town and Villefranche bay. The apartment has direct elevator access. It features an entrance hall, a spacious living room with a kitchen opening onto a stunning south-facing terrace, a bedroom with its own bathroom/toilet, a second en-suite bedroom with a walk-in closet and bathroom/toilet, and finally a master bedroom, also en-suite. Included is a storage cellar and the use of two outdoor parking space",
 		image: [
 			apt24Img1,
 			apt24Img2,
@@ -1212,23 +1355,29 @@ export const propertyData = [
 			apt24Img6,
 			apt24Img7,
 			apt24Img8,
-			// apt24Img9,
-			// apt24Img10,
+			apt24Img9,
+			apt24Img10,
 		],
-		price: '200, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '3,500,000€',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '141 m2',
+
+			landTax: '2,327',
+			ref: 'B - 1645',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
 	{
 		id: 25,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'NICE CENTRE VILLE - 6 BEDROOM APARTMENT',
 		shortDesc:
-			'NICE - SAINTE MARGUERITE: Located in a well-maintained condominium, this 2-room apartment with a surface area of 50m² is a property to discover.',
+			'Center of Nice, near Dubouchage - Nestled on the top floor of a sumptuous 19thᵉ century Nice building, completely renovated (roof, facade and communal areas), this rare flat on the market spans 290 sqm of living space.',
 		longDesc:
-			'NICE - SAINTE MARGUERITE: Located in a well-maintained condominium, this 2-room apartment with a surface area of 50m² is a property to discover. Crossing from east to west, it benefits from optimal brightness throughout the day. It consists of a living room opening onto a terrace, a separate kitchen with balcony, a bedroom, a shower room and a separate toilet. A cellar completes this property. Ideal for first-time buyers and rental investment. ',
+			'Center of Nice, near Dubouchage - Nestled on the top floor of a sumptuous 19thᵉ century Nice building, completely renovated (roof, facade and communal areas), this rare flat on the market spans 290 sqm of living space. It enjoys a south-facing position with unobstructed, unobstructed views. It consists of two independent flats. The first flat of 167 sqm consists of a beautiful entrance hall, a living room of 45 sqm where the transparency of the glass walls enhances the feeling of space and brightness, a huge kitchen/dining room of 30 sqm, 2 bedrooms, a fitted dressing room, a bathroom with toilet and a separate toilet.  The second flat of 123 sqm consists of a beautiful entrance hall, a living room, a dining room, 2 bedrooms, a separate fitted and equipped kitchen, a huge bathroom with shower and bath, a dressing room and a separate toilet. The flat has a balcony of 12 sqm running all the way around the two flats. This unique property also comes with a convertible attic space of 140 sqm, offering rare potential for extension (works to be planned), as well as two cellars. Exceptional and rare on the market, this flat is sold furnished with its works of art! Fees payable by the purchaser (5%)',
 		image: [
 			apt25Img1,
 			apt25Img2,
@@ -1237,20 +1386,26 @@ export const propertyData = [
 			apt25Img5,
 			apt25Img6,
 			apt25Img7,
-			// apt25Img8,
-			// apt25Img9,
-			// apt25Img10,
+			apt25Img8,
+			apt25Img9,
+			apt25Img10,
 		],
-		price: '180, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '3,620,000€',
+		moreInfo: {
+			bedrooms: 5,
+			surface: '289.16 m2',
+
+			landTax: '5,200',
+			ref: 'N - 4102',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
 		id: 26,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'NICE - MASSENA',
 		shortDesc:
 			'NICE - MASSENA : Ideally located in the heart of the prestigious Place Masséna, in a secure luxury building, this charming apartment offers an exceptional living environment.',
 		longDesc:
@@ -1265,22 +1420,28 @@ export const propertyData = [
 			apt26Img7,
 			apt26Img8,
 			apt26Img9,
-			// apt26Img10,
+			apt26Img6,
 		],
 		price: '310,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 1,
+			surface: '36.04 m2',
+
+			landTax: '736',
+			ref: 'A - 23211',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
 		id: 27,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'NICE - MASSENA',
 		shortDesc:
-			"Nice bas Mont Boron, Parc Louisa - In a gated estate a stone's throw from the port, beach, shops and transport links, this pleasant 1 bedroom apartment of 26 sqm in perfect condition.",
+			'2-room apartment of 51 m², located on the top floor of a character building with elevator.',
 		longDesc:
-			"Nice bas Mont Boron, Parc Louisa - In a gated estate a stone's throw from the port, beach, shops and transport links, this pleasant 1 bedroom apartment of 26 sqm in perfect condition. It consists of a living room with kitchen, bedroom and shower room with toilet. Easy parking on the estate. Ideal for a rental investment or a pied à terre, close to the port and all its amenities.  Small, quiet condominium.",
+			"2-room apartment of 51 m², located on the top floor of a character building with elevator. Ideally located at the entrance to Old Nice, a stone's throw from Place Massena and the Promenade des Anglais, this apartment has been completely renovated. It is composed of a living room of more than 30 m², a fitted and equipped kitchen, a bedroom, a bathroom and a separate toilet. The apartment is air-conditioned",
 		image: [
 			apt27Img1,
 			apt27Img2,
@@ -1289,24 +1450,30 @@ export const propertyData = [
 			apt27Img5,
 			apt27Img6,
 			apt27Img7,
-			// apt27Img8,
-			// apt27Img9,
+			apt27Img8,
+			apt27Img9,
 			// apt29Img10,
 		],
-		price: '220, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '630,000€',
+		moreInfo: {
+			bedrooms: 1,
+			surface: '61.88 m2',
+
+			landTax: '925',
+			ref: 'C - 2811',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
 		id: 28,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'NICE - CENTER - NOTRE DAME',
 		shortDesc:
-			'Nice Mont Boron - Ideally located, close to all amenities, in a private and secure estate, 3 bedroom apartment of 95 sqm in perfect condition.',
+			'NOTRE DAME: Loft of 97 m² located on the top floor of a bourgeois building in the heart of Nice.',
 		longDesc:
-			"Nice Mont Boron - Ideally located, close to all amenities, in a private and secure estate, 3 bedroom apartment of 95 sqm in perfect condition.  The apartment is full of charm (high ceilings, fireplace, parquet flooring and moldings) and offers plenty of natural light.  It consists of a dining room, a living room, a separate fitted and equipped kitchen, a storeroom, two bedrooms, a bathroom with shower, bath and toilet, and a guest toilet. Air conditioning. In absolute calm, close to schools, this apartment is ideal for a family.  You'll love it! ",
+			'NOTRE DAME: Loft of 97 m² located on the top floor of a bourgeois building in the heart of Nice. *ideal location near the Notre Dame Basilica, Avenue Jean Médecin and the Tramway, this apartment is located on the top floor. Completely renovated, it offers very beautiful volumes. It is composed of an entrance with plenty of storage space, a living room of more than 50 m² with equipped kitchen and large balcony of 12 m², a bathroom, a pantry and a laundry room. Decorated with great taste, it has a ceiling height of more than 4m and a glass roof. Upstairs a sleeping space of more than 15 m² with toilet. The apartment is through and offers very beautiful light. Very rare apartment in the heart of Nice.',
 		image: [
 			apt28Img1,
 			apt28Img2,
@@ -1316,13 +1483,19 @@ export const propertyData = [
 			apt28Img6,
 			apt28Img7,
 			apt28Img8,
-			// apt28Img9,
-			// apt28Img10,
+			apt28Img9,
+			apt28Img10,
 		],
-		price: '325, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '695,000€',
+		moreInfo: {
+			bedrooms: 1,
+			surface: '96.90 m2',
+
+			landTax: '1,100',
+			ref: 'C - 2656',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
@@ -1346,15 +1519,20 @@ export const propertyData = [
 			// apt29Img10,
 		],
 		price: '750, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '50 m2',
+			bathrooms: 2,
+			landTax: '',
+			ref: 'prop111-propobject',
+		},
+		category: '',
 	},
 
 	{
 		id: 30,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Mont Moron',
 		shortDesc: 'Spacious apartment in a great location.',
 		longDesc:
 			'Nestled in the prestigious Mont Boron area of Nice, this exquisite 64.23 m² apartment offers a harmonious blend of modern comfort and luxury living. Boasting two spacious bedrooms and three elegantly designed rooms, the property is furnished and ready for immediate occupancy. Key features include air-conditioning, aluminum sliding windows, and internet connectivity, ensuring a lifestyle of the utmost convenience and comfort.',
@@ -1368,12 +1546,18 @@ export const propertyData = [
 			apt30Img7,
 			apt30Img8,
 			apt30Img9,
-			apt30Img10,
+			// apt30Img10,
 		],
 		price: '565, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 1,
+			surface: '64 m2',
+
+			landTax: '1,267',
+			ref: '2025 - 5',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
@@ -1397,9 +1581,14 @@ export const propertyData = [
 			apt31Img10,
 		],
 		price: '2, 320, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '50 m2',
+			bathrooms: 2,
+			landTax: '',
+			ref: 'prop111-propobject',
+		},
+		category: '',
 	},
 
 	{
@@ -1423,15 +1612,20 @@ export const propertyData = [
 			// apt32Img10,
 		],
 		price: '380, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '50 m2',
+			bathrooms: 2,
+			landTax: '',
+			ref: 'prop111-propobject',
+		},
+		category: '',
 	},
 
 	{
 		id: 33,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'VILLEFRANCHE - OLD TOWN',
 		shortDesc:
 			'VILLEFRANCHE - OLD TOWN - Your Pierreenricoimmobilier agency proposes you an apartment in the heart of the old town of Villefranche-sur-Mer, a few steps from the beaches and amenities.',
 		longDesc:
@@ -1445,13 +1639,20 @@ export const propertyData = [
 			apt33Img6,
 			apt33Img7,
 			apt33Img8,
-			// apt33Img9,
+			apt33Img9,
+			apt33Img5,
 			// apt33Img10,
 		],
 		price: '540, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 2,
+			surface: '54.80 m2',
+
+			landTax: '660€',
+			ref: 'V - 11084',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
@@ -1474,16 +1675,22 @@ export const propertyData = [
 			apt34Img9,
 			apt34Img10,
 		],
-		price: 'Contact for price',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '519,000',
+		moreInfo: {
+			bedrooms: 2,
+			surface: '81 m2',
+
+			landTax: '1,735',
+			ref: 'V - 12006',
+		},
+		category: 'apartment',
+		status: 'available',
 	},
 
 	{
 		id: 35,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Nice Gairaut',
 		shortDesc:
 			'Nice Gairaut: 5 room apartment of 172 m2. Located in an exceptional estate with infinity pool, golf practice, tennis court and gym, discover this duplex apartment in perfect condition offering panoramic views of the Bay of Angels.',
 		longDesc:
@@ -1500,16 +1707,22 @@ export const propertyData = [
 			apt35Img9,
 			apt35Img10,
 		],
-		price: 'Contact for price',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '2,495,000',
+		moreInfo: {
+			bedrooms: 4,
+			surface: '172 m2',
+
+			landTax: '3,970',
+			ref: 'Z - 25020',
+		},
+		category: 'apartment',
+		status: 'still on',
 	},
 
 	{
 		id: 36,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'FALICON',
 		shortDesc:
 			'FALICON: Single-storey house of 127 m² on a plot of 1800 m² with swimming pool and outbuildings.',
 		longDesc:
@@ -1527,15 +1740,21 @@ export const propertyData = [
 			apt36Img10,
 		],
 		price: '1, 080, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '127.63 m2',
+			bathrooms: 3,
+			landTax: '4,500€',
+			ref: 'Z -  23102',
+		},
+		category: 'villa',
+		status: 'still on',
 	},
 
 	{
 		id: 37,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'NICE - BAS CIMIEZ',
 		shortDesc:
 			'NICE - BAS CIMIEZ: Villa of 130.43m² on a plot of 268m² with garage, terraces and summer kitchen, located at the bottom of the hill of Cimiez.',
 		longDesc:
@@ -1552,16 +1771,22 @@ export const propertyData = [
 			apt37Img9,
 			apt37Img10,
 		],
-		price: '870, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '995, 000€',
+		moreInfo: {
+			bedrooms: 4,
+			surface: '130.43 m2',
+
+			landTax: '2,376€',
+			ref: 'Z - 4057',
+		},
+		category: 'villa',
+		status: 'still on',
 	},
 
 	{
 		id: 38,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'TRINITE',
 		shortDesc:
 			'TRINITE - In a quiet residential area, 116.49m² family home in very good condition with garden.',
 		longDesc:
@@ -1578,10 +1803,16 @@ export const propertyData = [
 			apt38Img9,
 			apt38Img10,
 		],
-		price: '350,000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '374,000€',
+		moreInfo: {
+			bedrooms: 4,
+			surface: '116.49 m2',
+
+			landTax: '650€',
+			ref: 'P - 9870',
+		},
+		category: 'villa',
+		status: 'still on',
 	},
 
 	{
@@ -1604,42 +1835,53 @@ export const propertyData = [
 			apt39Img9,
 			apt39Img10,
 		],
-		price: '2, 750, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '3, 180, 000€',
+		moreInfo: {
+			bedrooms: 3,
+			surface: '140 m2',
+
+			landTax: '2,200',
+			ref: 'N - 41041',
+		},
+		category: 'villa',
+		status: 'available',
 	},
 
-	{
-		id: 40,
-		type: 'all property',
-		title: 'Beautiful Apartment',
-		shortDesc:
-			"Tourrettes  sur Loup - You'll love this beautiful detached villa, located 3 kilometers from this pretty medieval village.",
-		longDesc:
-			"Tourrettes  sur Loup - You'll love this beautiful detached villa, located 3 kilometers from this pretty medieval village. The house is built on a lovely flat plot with trees and landscaping, and is in perfect condition. A beautiful swimming pool adorns the garden. This family home, located close to the old Grasse railway line, now transformed into a bicycle and pedestrian path for family outings, offers unobstructed views and maximum sunshine. The first floor consists of a living room, kitchen, laundry room, guest toilet and two bedrooms, each with its own bathroom or shower and toilet. On the garden level, an attractive guest bedroom with bathroom and toilet. Upstairs, the master bedroom with bathroom, toilet and terrace. A covered carport for two vehicles completes this house.",
-		image: [
-			apt40Img1,
-			apt40Img2,
-			apt40Img3,
-			apt40Img4,
-			apt40Img5,
-			apt40Img6,
-			apt40Img7,
-			apt40Img8,
-			apt40Img9,
-			apt40Img10,
-		],
-		price: '1, 250, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
-	},
+	// {
+	// 	id: 40,
+	// 	type: 'all property',
+	// 	title: 'Beautiful Apartment',
+	// 	shortDesc:
+	// 		"Tourrettes  sur Loup - You'll love this beautiful detached villa, located 3 kilometers from this pretty medieval village.",
+	// 	longDesc:
+	// 		"Tourrettes  sur Loup - You'll love this beautiful detached villa, located 3 kilometers from this pretty medieval village. The house is built on a lovely flat plot with trees and landscaping, and is in perfect condition. A beautiful swimming pool adorns the garden. This family home, located close to the old Grasse railway line, now transformed into a bicycle and pedestrian path for family outings, offers unobstructed views and maximum sunshine. The first floor consists of a living room, kitchen, laundry room, guest toilet and two bedrooms, each with its own bathroom or shower and toilet. On the garden level, an attractive guest bedroom with bathroom and toilet. Upstairs, the master bedroom with bathroom, toilet and terrace. A covered carport for two vehicles completes this house.",
+	// 	image: [
+	// 		apt40Img1,
+	// 		apt40Img2,
+	// 		apt40Img3,
+	// 		apt40Img4,
+	// 		apt40Img5,
+	// 		apt40Img6,
+	// 		apt40Img7,
+	// 		apt40Img8,
+	// 		apt40Img9,
+	// 		apt40Img10,
+	// 	],
+	// 	price: '1, 250, 000€',
+	// 	moreInfo: {
+	// 		bedrooms: 3,
+	// 		surface: '50 m2',
+	// 		bathrooms: 2,
+	// 		landTax: '',
+	// 		ref: 'prop111-propobject',
+	// 	},
+	// 	category: '',
+	// },
 
 	{
 		id: 41,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'NICE - LE PIOL',
 		shortDesc:
 			'NICE - LE PIOL : This sublime, fully renovated villa dating from 1902 offers a prestigious living environment with a breathtaking view of the Russian church and the city of Nice.',
 		longDesc:
@@ -1656,16 +1898,22 @@ export const propertyData = [
 			apt41Img9,
 			apt41Img10,
 		],
-		price: '1, 650, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '1, 790, 000€',
+		moreInfo: {
+			bedrooms: 5,
+			surface: '221.23 m2',
+
+			landTax: '3,629€',
+			ref: 'A - 23166',
+		},
+		category: 'villa',
+		status: 'still on',
 	},
 
 	{
 		id: 42,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Nice Col des quatre chemins',
 		shortDesc:
 			'Nice Col des quatre chemins, charming provencal villa of 386sqm completely renovated sold furnished built on a plot of 2500sqm.',
 		longDesc:
@@ -1683,15 +1931,21 @@ export const propertyData = [
 			apt42Img10,
 		],
 		price: '2,560, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 6,
+			surface: '385.80 m2',
+
+			landTax: '4,500€',
+			ref: 'N - 40857',
+		},
+		category: 'villa',
+		status: 'still on',
 	},
 
 	{
 		id: 43,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'Villefranche sur mer',
 		shortDesc:
 			'Villefranche sur mer, in the most beautiful secure domain, very beautiful Provençal villa of 200 sqm on a very beautiful flat plot of 150 sqm',
 		longDesc:
@@ -1709,15 +1963,21 @@ export const propertyData = [
 			apt43Img10,
 		],
 		price: '1, 500, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		moreInfo: {
+			bedrooms: 5,
+			surface: '200 m2',
+
+			landTax: '3,700€',
+			ref: 'B - 1540',
+		},
+		category: 'villa',
+		status: 'still on',
 	},
 
 	{
 		id: 44,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'NICE - CIMIEZ',
 		shortDesc:
 			'NICE - CIMIEZ: Contemporary villa of 367m² with swimming pool and roof terrace. Ideally located in the heart of Cimiez, in a closed development, a few steps from the arenas, the villa has been completely renovated in a contemporary style with luxurious amenities.',
 		longDesc:
@@ -1734,16 +1994,22 @@ export const propertyData = [
 			apt44Img9,
 			apt44Img10,
 		],
-		price: '2, 900, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '3, 300, 000€',
+		moreInfo: {
+			bedrooms: 4,
+			surface: '367 m2',
+
+			landTax: '5,000€',
+			ref: 'Z - 25006',
+		},
+		category: 'villa',
+		status: 'still on',
 	},
 
 	{
 		id: 45,
 		type: 'all property',
-		title: 'Beautiful Apartment',
+		title: 'PORT DE NICE',
 		shortDesc:
 			'PORT DE NICE – Located in a beautiful building in Nice, close to all amenities (tram, shops and schools), a few meters from the mythical Promenade des Anglais and the port of Nice, three charming apartments can be combined into one.',
 		longDesc:
@@ -1760,9 +2026,15 @@ export const propertyData = [
 			apt45Img9,
 			apt45Img10,
 		],
-		price: '3,500, 000€',
-		bedrooms: 3,
-		bathrooms: 2,
-		address: '123 Main St',
+		price: '3,800, 000€',
+		moreInfo: {
+			bedrooms: 7,
+			surface: '280.32 m2',
+
+			landTax: '2000',
+			ref: 'N - 40721',
+		},
+		category: 'villa',
+		status: 'still on',
 	},
 ];

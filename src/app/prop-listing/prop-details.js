@@ -52,7 +52,7 @@ export const renderPropDetails = () => {
 
             <div class="more-info-wrap">
               <div class="info">
-                <h4 class="heading">More info</h4>
+                <h4 class="heading">Description</h4>
                 <p class="info-text">
                   ${prop.longDesc}
                 </p>
@@ -69,25 +69,24 @@ export const renderPropDetails = () => {
 											<a href="tel:+2348100784622" target="_blank" class="btn contact-btn"><i class="fa-solid fa-phone"></i> <span>Call</span></a>
 										</div>
 
-                    <button class="btn plan-visit-btn">Plan you visit</button>
+                    <button class="btn plan-visit-btn">Plan your visit</button>
                   </div>
                 </div>
               </div>
             </div>
 
-            <!-- <div class="listing-features">
+            <div class="listing-features">
               <div class="text-wrap">
                 <h3 class="title">Features</h3>
               </div>
               <div class="features-wrap">
-                <span>Bedroom: ${prop.bedrooms}</span>
-                <span>Bedroom: ${prop.bedrooms}</span>
-                <span>Bedroom: ${prop.bedrooms}</span>
-                <span>Bedroom: ${prop.bedrooms}</span>
-                <span>Bedroom: ${prop.bedrooms}</span>
-                <span>Bedroom: ${prop.bedrooms}</span>
+                <span>Bedrooms: ${prop.moreInfo.bedrooms}</span>
+                <span>Surface Area: ${prop.moreInfo.surface}</span>
+                <span>Land tax: ${prop.moreInfo.landTax}</span>
+                <span>Reference: ${prop.moreInfo.ref}</span>
+                
               </div>
-            </d> -->
+            </d>
           </div>
         `;
 			};

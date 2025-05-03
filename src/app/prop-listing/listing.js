@@ -1,4 +1,4 @@
-import { propertyData } from '../property-imgs';
+import { propertyData } from '../property-object';
 
 const listingHeadSec = document.querySelector('.listing-head-section');
 const filterBtns = document.querySelectorAll('.cat-filter-btn');
